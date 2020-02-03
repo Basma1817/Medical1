@@ -1,0 +1,114 @@
+﻿.box-body {
+    text-align:center;
+}
+
+    .box-body .example2 tbody tr td {
+        font-weight: 600;
+        font-size:14px;
+    }
+
+#MainContent_TextBox1 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+#MainContent_TextBox2 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+#MainContent_TextBox3 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+
+#MainContent_TextBox4 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+#MainContent_TextBox5 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+#MainContent_TextBox6 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+
+#MainContent_TextBox7 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+
+#MainContent_TextBox8 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+
+#MainContent_TextBox9 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+#MainContent_TextBox10 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+
+#MainContent_TextBox11 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+
+#MainContent_TextBox12 {
+    border-radius: 0px;
+    height: 30px;
+}
+
+/*.table td, .table th {
+    font-size: 11px;
+    font-weight: 700;
+    float: right;
+    width: 150%;
+    text-align: right;
+}*/
+
+#MainContent_Button1 {
+    color: white;
+    background-color: green;
+    font-size: 15px;
+}
+
+#MainContent_Button2 {
+    color: white;
+    background-color: red;
+    font-size: 15px;
+}
+
+#MainContent_Button3 {
+    color: white;
+    background-color: green;
+    font-size: 15px;
+}
+
+#MainContent_Button4 {
+    color: white;
+    background-color: red;
+    font-size: 15px;
+}
+
+#MainContent_DropDownList1 {
+    height: 30px;
+}
+
+#MainContent_DropDownList2 {
+    height: 30px;
+}
