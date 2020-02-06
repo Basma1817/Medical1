@@ -1,0 +1,951 @@
+E:\ASP Department\medical 13-10-2019\mid\obj\Debug\mid.dll
+E:\ASP Department\medical 13-10-2019\mid\obj\Debug\mid.pdb
+E:\ASP Department\medical 13-10-2019\mid\bin\ApplicationInsights.config
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\csc.exe
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\System.Collections.Immutable.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\System.Reflection.Metadata.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\vbc.exe
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\VBCSCompiler.exe
+E:\ASP Department\medical 13-10-2019\mid\bin\roslyn\VBCSCompiler.exe.config
+E:\ASP Department\medical 13-10-2019\mid\bin\mid.dll.config
+E:\ASP Department\medical 13-10-2019\mid\bin\mid.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\mid.pdb
+E:\ASP Department\medical 13-10-2019\mid\bin\Antlr3.Runtime.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\AspNet.ScriptManager.bootstrap.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\AspNet.ScriptManager.jQuery.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportSource.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.Shared.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\crystaldecisions.web.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\EntityFramework.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\EntityFramework.SqlServer.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.DependencyCollector.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.Web.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.WindowsServer.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.ApplicationInsights.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.Google.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.ScriptManager.WebForms.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Newtonsoft.Json.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Owin.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Syncfusion.EJ.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Syncfusion.EJ.Web.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\System.Web.Optimization.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\System.Web.Providers.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\WebGrease.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Syncfusion.Linq.Base.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\stdole.dll
+E:\ASP Department\medical 13-10-2019\mid\bin\Antlr3.Runtime.pdb
+E:\ASP Department\medical 13-10-2019\mid\bin\EntityFramework.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\EntityFramework.SqlServer.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.DependencyCollector.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.Web.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AI.WindowsServer.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.ApplicationInsights.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.Google.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Newtonsoft.Json.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Syncfusion.EJ.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Syncfusion.EJ.Web.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\System.Web.Optimization.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\System.Web.Providers.xml
+E:\ASP Department\medical 13-10-2019\mid\bin\Syncfusion.Linq.Base.xml
+E:\ASP Department\medical 13-10-2019\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
+E:\ASP Department\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
+E:\ASP Department\medical work area\mid\obj\Debug\mid.dll
+E:\ASP Department\medical work area\mid\obj\Debug\mid.pdb
+E:\ASP Department\medical work area\mid\bin\ApplicationInsights.config
+E:\ASP Department\medical work area\mid\bin\mid.dll.config
+E:\ASP Department\medical work area\mid\bin\mid.dll
+E:\ASP Department\medical work area\mid\bin\mid.pdb
+E:\ASP Department\medical work area\mid\bin\Antlr3.Runtime.dll
+E:\ASP Department\medical work area\mid\bin\AspNet.ScriptManager.bootstrap.dll
+E:\ASP Department\medical work area\mid\bin\AspNet.ScriptManager.jQuery.dll
+E:\ASP Department\medical work area\mid\bin\EntityFramework.dll
+E:\ASP Department\medical work area\mid\bin\EntityFramework.SqlServer.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.DependencyCollector.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.Web.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.WindowsServer.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.ApplicationInsights.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.Google.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.ScriptManager.WebForms.dll
+E:\ASP Department\medical work area\mid\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP Department\medical work area\mid\bin\Newtonsoft.Json.dll
+E:\ASP Department\medical work area\mid\bin\Owin.dll
+E:\ASP Department\medical work area\mid\bin\System.Web.Optimization.dll
+E:\ASP Department\medical work area\mid\bin\System.Web.Providers.dll
+E:\ASP Department\medical work area\mid\bin\WebGrease.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\ASP Department\medical work area\mid\bin\Syncfusion.Linq.Base.dll
+E:\ASP Department\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\ASP Department\medical work area\mid\bin\stdole.dll
+E:\ASP Department\medical work area\mid\bin\Antlr3.Runtime.pdb
+E:\ASP Department\medical work area\mid\bin\EntityFramework.xml
+E:\ASP Department\medical work area\mid\bin\EntityFramework.SqlServer.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.DependencyCollector.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.Web.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.AI.WindowsServer.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.ApplicationInsights.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.Google.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ASP Department\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ASP Department\medical work area\mid\bin\Newtonsoft.Json.xml
+E:\ASP Department\medical work area\mid\bin\Syncfusion.EJ.xml
+E:\ASP Department\medical work area\mid\bin\Syncfusion.EJ.Web.xml
+E:\ASP Department\medical work area\mid\bin\System.Web.Optimization.xml
+E:\ASP Department\medical work area\mid\bin\System.Web.Providers.xml
+E:\ASP Department\medical work area\mid\bin\Syncfusion.Linq.Base.xml
+E:\Ahmed\medical work area\mid\bin\ApplicationInsights.config
+E:\Ahmed\medical work area\mid\bin\roslyn\csc.exe
+E:\Ahmed\medical work area\mid\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Ahmed\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Ahmed\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Ahmed\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Ahmed\medical work area\mid\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Ahmed\medical work area\mid\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Ahmed\medical work area\mid\bin\roslyn\System.Collections.Immutable.dll
+E:\Ahmed\medical work area\mid\bin\roslyn\System.Reflection.Metadata.dll
+E:\Ahmed\medical work area\mid\bin\roslyn\vbc.exe
+E:\Ahmed\medical work area\mid\bin\roslyn\VBCSCompiler.exe
+E:\Ahmed\medical work area\mid\bin\roslyn\VBCSCompiler.exe.config
+E:\Ahmed\medical work area\mid\bin\mid.dll.config
+E:\Ahmed\medical work area\mid\bin\mid.dll
+E:\Ahmed\medical work area\mid\bin\mid.pdb
+E:\Ahmed\medical work area\mid\bin\Antlr3.Runtime.dll
+E:\Ahmed\medical work area\mid\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Ahmed\medical work area\mid\bin\AspNet.ScriptManager.jQuery.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportSource.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.Shared.dll
+E:\Ahmed\medical work area\mid\bin\crystaldecisions.web.dll
+E:\Ahmed\medical work area\mid\bin\EntityFramework.dll
+E:\Ahmed\medical work area\mid\bin\EntityFramework.SqlServer.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.DependencyCollector.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.Web.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.WindowsServer.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.ApplicationInsights.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.Google.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Ahmed\medical work area\mid\bin\Microsoft.Web.Infrastructure.dll
+E:\Ahmed\medical work area\mid\bin\Newtonsoft.Json.dll
+E:\Ahmed\medical work area\mid\bin\Owin.dll
+E:\Ahmed\medical work area\mid\bin\Syncfusion.EJ.dll
+E:\Ahmed\medical work area\mid\bin\Syncfusion.EJ.Web.dll
+E:\Ahmed\medical work area\mid\bin\System.Web.Optimization.dll
+E:\Ahmed\medical work area\mid\bin\System.Web.Providers.dll
+E:\Ahmed\medical work area\mid\bin\WebGrease.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Ahmed\medical work area\mid\bin\Syncfusion.Linq.Base.dll
+E:\Ahmed\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Ahmed\medical work area\mid\bin\stdole.dll
+E:\Ahmed\medical work area\mid\bin\Antlr3.Runtime.pdb
+E:\Ahmed\medical work area\mid\bin\EntityFramework.xml
+E:\Ahmed\medical work area\mid\bin\EntityFramework.SqlServer.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.DependencyCollector.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.Web.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.AI.WindowsServer.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.ApplicationInsights.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.Google.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Ahmed\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Ahmed\medical work area\mid\bin\Newtonsoft.Json.xml
+E:\Ahmed\medical work area\mid\bin\Syncfusion.EJ.xml
+E:\Ahmed\medical work area\mid\bin\Syncfusion.EJ.Web.xml
+E:\Ahmed\medical work area\mid\bin\System.Web.Optimization.xml
+E:\Ahmed\medical work area\mid\bin\System.Web.Providers.xml
+E:\Ahmed\medical work area\mid\bin\Syncfusion.Linq.Base.xml
+E:\Ahmed\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
+E:\Ahmed\medical work area\mid\obj\Debug\mid.dll
+E:\Ahmed\medical work area\mid\obj\Debug\mid.pdb
+E:\medical work area\mid\bin\ApplicationInsights.config
+E:\medical work area\mid\bin\roslyn\csc.exe
+E:\medical work area\mid\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\medical work area\mid\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\medical work area\mid\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\medical work area\mid\bin\roslyn\System.Collections.Immutable.dll
+E:\medical work area\mid\bin\roslyn\System.Reflection.Metadata.dll
+E:\medical work area\mid\bin\roslyn\vbc.exe
+E:\medical work area\mid\bin\roslyn\VBCSCompiler.exe
+E:\medical work area\mid\bin\roslyn\VBCSCompiler.exe.config
+E:\medical work area\mid\bin\mid.dll.config
+E:\medical work area\mid\bin\mid.dll
+E:\medical work area\mid\bin\mid.pdb
+E:\medical work area\mid\bin\Antlr3.Runtime.dll
+E:\medical work area\mid\bin\AspNet.ScriptManager.bootstrap.dll
+E:\medical work area\mid\bin\AspNet.ScriptManager.jQuery.dll
+E:\medical work area\mid\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportSource.dll
+E:\medical work area\mid\bin\CrystalDecisions.Shared.dll
+E:\medical work area\mid\bin\crystaldecisions.web.dll
+E:\medical work area\mid\bin\EntityFramework.dll
+E:\medical work area\mid\bin\EntityFramework.SqlServer.dll
+E:\medical work area\mid\bin\Microsoft.AI.Agent.Intercept.dll
+E:\medical work area\mid\bin\Microsoft.AI.DependencyCollector.dll
+E:\medical work area\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\medical work area\mid\bin\Microsoft.AI.Web.dll
+E:\medical work area\mid\bin\Microsoft.AI.WindowsServer.dll
+E:\medical work area\mid\bin\Microsoft.ApplicationInsights.dll
+E:\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.dll
+E:\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\medical work area\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\medical work area\mid\bin\Microsoft.Owin.dll
+E:\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.dll
+E:\medical work area\mid\bin\Microsoft.Owin.Security.dll
+E:\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.dll
+E:\medical work area\mid\bin\Microsoft.Owin.Security.Google.dll
+E:\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.dll
+E:\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.dll
+E:\medical work area\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\medical work area\mid\bin\Microsoft.ScriptManager.WebForms.dll
+E:\medical work area\mid\bin\Microsoft.Web.Infrastructure.dll
+E:\medical work area\mid\bin\Newtonsoft.Json.dll
+E:\medical work area\mid\bin\Owin.dll
+E:\medical work area\mid\bin\Syncfusion.EJ.dll
+E:\medical work area\mid\bin\Syncfusion.EJ.Web.dll
+E:\medical work area\mid\bin\System.Web.Optimization.dll
+E:\medical work area\mid\bin\System.Web.Providers.dll
+E:\medical work area\mid\bin\WebGrease.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\medical work area\mid\bin\Syncfusion.Linq.Base.dll
+E:\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\medical work area\mid\bin\stdole.dll
+E:\medical work area\mid\bin\Antlr3.Runtime.pdb
+E:\medical work area\mid\bin\EntityFramework.xml
+E:\medical work area\mid\bin\EntityFramework.SqlServer.xml
+E:\medical work area\mid\bin\Microsoft.AI.DependencyCollector.xml
+E:\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\medical work area\mid\bin\Microsoft.AI.Web.xml
+E:\medical work area\mid\bin\Microsoft.AI.WindowsServer.xml
+E:\medical work area\mid\bin\Microsoft.ApplicationInsights.xml
+E:\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.xml
+E:\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\medical work area\mid\bin\Microsoft.Owin.xml
+E:\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\medical work area\mid\bin\Microsoft.Owin.Security.xml
+E:\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.xml
+E:\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.xml
+E:\medical work area\mid\bin\Microsoft.Owin.Security.Google.xml
+E:\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.xml
+E:\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.xml
+E:\medical work area\mid\bin\Newtonsoft.Json.xml
+E:\medical work area\mid\bin\Syncfusion.EJ.xml
+E:\medical work area\mid\bin\Syncfusion.EJ.Web.xml
+E:\medical work area\mid\bin\System.Web.Optimization.xml
+E:\medical work area\mid\bin\System.Web.Providers.xml
+E:\medical work area\mid\bin\Syncfusion.Linq.Base.xml
+E:\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
+E:\medical work area\mid\obj\Debug\mid.dll
+E:\medical work area\mid\obj\Debug\mid.pdb
+\\asp1\medical work area\mid\bin\ApplicationInsights.config
+\\asp1\medical work area\mid\bin\roslyn\csc.exe
+\\asp1\medical work area\mid\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\asp1\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\asp1\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\asp1\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\asp1\medical work area\mid\bin\roslyn\Microsoft.CSharp.Core.targets
+\\asp1\medical work area\mid\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\asp1\medical work area\mid\bin\roslyn\System.Collections.Immutable.dll
+\\asp1\medical work area\mid\bin\roslyn\System.Reflection.Metadata.dll
+\\asp1\medical work area\mid\bin\roslyn\vbc.exe
+\\asp1\medical work area\mid\bin\roslyn\VBCSCompiler.exe
+\\asp1\medical work area\mid\bin\roslyn\VBCSCompiler.exe.config
+\\asp1\medical work area\mid\bin\mid.dll.config
+\\asp1\medical work area\mid\bin\mid.dll
+\\asp1\medical work area\mid\bin\mid.pdb
+\\asp1\medical work area\mid\bin\Antlr3.Runtime.dll
+\\asp1\medical work area\mid\bin\AspNet.ScriptManager.bootstrap.dll
+\\asp1\medical work area\mid\bin\AspNet.ScriptManager.jQuery.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.CrystalReports.Engine.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportSource.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.Shared.dll
+\\asp1\medical work area\mid\bin\crystaldecisions.web.dll
+\\asp1\medical work area\mid\bin\EntityFramework.dll
+\\asp1\medical work area\mid\bin\EntityFramework.SqlServer.dll
+\\asp1\medical work area\mid\bin\Microsoft.AI.Agent.Intercept.dll
+\\asp1\medical work area\mid\bin\Microsoft.AI.DependencyCollector.dll
+\\asp1\medical work area\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+\\asp1\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\asp1\medical work area\mid\bin\Microsoft.AI.Web.dll
+\\asp1\medical work area\mid\bin\Microsoft.AI.WindowsServer.dll
+\\asp1\medical work area\mid\bin\Microsoft.ApplicationInsights.dll
+\\asp1\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+\\asp1\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.dll
+\\asp1\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\asp1\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+\\asp1\medical work area\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+\\asp1\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\asp1\medical work area\mid\bin\Microsoft.Owin.dll
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.dll
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.dll
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.dll
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.Google.dll
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.dll
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.dll
+\\asp1\medical work area\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+\\asp1\medical work area\mid\bin\Microsoft.ScriptManager.WebForms.dll
+\\asp1\medical work area\mid\bin\Microsoft.Web.Infrastructure.dll
+\\asp1\medical work area\mid\bin\Newtonsoft.Json.dll
+\\asp1\medical work area\mid\bin\Owin.dll
+\\asp1\medical work area\mid\bin\Syncfusion.EJ.dll
+\\asp1\medical work area\mid\bin\Syncfusion.EJ.Web.dll
+\\asp1\medical work area\mid\bin\System.Web.Optimization.dll
+\\asp1\medical work area\mid\bin\System.Web.Providers.dll
+\\asp1\medical work area\mid\bin\WebGrease.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+\\asp1\medical work area\mid\bin\Syncfusion.Linq.Base.dll
+\\asp1\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+\\asp1\medical work area\mid\bin\stdole.dll
+\\asp1\medical work area\mid\bin\Antlr3.Runtime.pdb
+\\asp1\medical work area\mid\bin\EntityFramework.xml
+\\asp1\medical work area\mid\bin\EntityFramework.SqlServer.xml
+\\asp1\medical work area\mid\bin\Microsoft.AI.DependencyCollector.xml
+\\asp1\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\asp1\medical work area\mid\bin\Microsoft.AI.Web.xml
+\\asp1\medical work area\mid\bin\Microsoft.AI.WindowsServer.xml
+\\asp1\medical work area\mid\bin\Microsoft.ApplicationInsights.xml
+\\asp1\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+\\asp1\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.xml
+\\asp1\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\asp1\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+\\asp1\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\asp1\medical work area\mid\bin\Microsoft.Owin.xml
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.xml
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.xml
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.xml
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.Google.xml
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.xml
+\\asp1\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.xml
+\\asp1\medical work area\mid\bin\Newtonsoft.Json.xml
+\\asp1\medical work area\mid\bin\Syncfusion.EJ.xml
+\\asp1\medical work area\mid\bin\Syncfusion.EJ.Web.xml
+\\asp1\medical work area\mid\bin\System.Web.Optimization.xml
+\\asp1\medical work area\mid\bin\System.Web.Providers.xml
+\\asp1\medical work area\mid\bin\Syncfusion.Linq.Base.xml
+\\asp1\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
+\\asp1\medical work area\mid\obj\Debug\mid.dll
+\\asp1\medical work area\mid\obj\Debug\mid.pdb
+E:\ASP Department\medical work area\mid\bin\AjaxControlToolkit.dll
+E:\basma\medical work area\medical work area\mid\bin\ApplicationInsights.config
+E:\basma\medical work area\medical work area\mid\bin\roslyn\csc.exe
+E:\basma\medical work area\medical work area\mid\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\basma\medical work area\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\basma\medical work area\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\basma\medical work area\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\basma\medical work area\medical work area\mid\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\basma\medical work area\medical work area\mid\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\basma\medical work area\medical work area\mid\bin\roslyn\System.Collections.Immutable.dll
+E:\basma\medical work area\medical work area\mid\bin\roslyn\System.Reflection.Metadata.dll
+E:\basma\medical work area\medical work area\mid\bin\roslyn\vbc.exe
+E:\basma\medical work area\medical work area\mid\bin\roslyn\VBCSCompiler.exe
+E:\basma\medical work area\medical work area\mid\bin\roslyn\VBCSCompiler.exe.config
+E:\basma\medical work area\medical work area\mid\bin\mid.dll.config
+E:\basma\medical work area\medical work area\mid\bin\mid.dll
+E:\basma\medical work area\medical work area\mid\bin\mid.pdb
+E:\basma\medical work area\medical work area\mid\bin\AjaxControlToolkit.dll
+E:\basma\medical work area\medical work area\mid\bin\Antlr3.Runtime.dll
+E:\basma\medical work area\medical work area\mid\bin\AspNet.ScriptManager.bootstrap.dll
+E:\basma\medical work area\medical work area\mid\bin\AspNet.ScriptManager.jQuery.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportSource.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.Shared.dll
+E:\basma\medical work area\medical work area\mid\bin\crystaldecisions.web.dll
+E:\basma\medical work area\medical work area\mid\bin\EntityFramework.dll
+E:\basma\medical work area\medical work area\mid\bin\EntityFramework.SqlServer.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.Agent.Intercept.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.DependencyCollector.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.Web.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.WindowsServer.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.ApplicationInsights.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.Google.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.ScriptManager.WebForms.dll
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Web.Infrastructure.dll
+E:\basma\medical work area\medical work area\mid\bin\Newtonsoft.Json.dll
+E:\basma\medical work area\medical work area\mid\bin\Owin.dll
+E:\basma\medical work area\medical work area\mid\bin\System.Web.Optimization.dll
+E:\basma\medical work area\medical work area\mid\bin\System.Web.Providers.dll
+E:\basma\medical work area\medical work area\mid\bin\WebGrease.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\basma\medical work area\medical work area\mid\bin\Syncfusion.Linq.Base.dll
+E:\basma\medical work area\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\basma\medical work area\medical work area\mid\bin\stdole.dll
+E:\basma\medical work area\medical work area\mid\bin\Antlr3.Runtime.pdb
+E:\basma\medical work area\medical work area\mid\bin\EntityFramework.xml
+E:\basma\medical work area\medical work area\mid\bin\EntityFramework.SqlServer.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.DependencyCollector.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.Web.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AI.WindowsServer.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.ApplicationInsights.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.Google.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.xml
+E:\basma\medical work area\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.xml
+E:\basma\medical work area\medical work area\mid\bin\Newtonsoft.Json.xml
+E:\basma\medical work area\medical work area\mid\bin\Syncfusion.EJ.xml
+E:\basma\medical work area\medical work area\mid\bin\Syncfusion.EJ.Web.xml
+E:\basma\medical work area\medical work area\mid\bin\System.Web.Optimization.xml
+E:\basma\medical work area\medical work area\mid\bin\System.Web.Providers.xml
+E:\basma\medical work area\medical work area\mid\bin\Syncfusion.Linq.Base.xml
+E:\basma\medical work area\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
+E:\basma\medical work area\medical work area\mid\obj\Debug\mid.dll
+E:\basma\medical work area\medical work area\mid\obj\Debug\mid.pdb
+F:\BaSma\16-12 last\medical work area\mid\bin\ApplicationInsights.config
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\csc.exe
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\System.Collections.Immutable.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\System.Reflection.Metadata.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\vbc.exe
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\VBCSCompiler.exe
+F:\BaSma\16-12 last\medical work area\mid\bin\roslyn\VBCSCompiler.exe.config
+F:\BaSma\16-12 last\medical work area\mid\bin\mid.dll.config
+F:\BaSma\16-12 last\medical work area\mid\bin\mid.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\mid.pdb
+F:\BaSma\16-12 last\medical work area\mid\bin\AjaxControlToolkit.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Antlr3.Runtime.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\AspNet.ScriptManager.bootstrap.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\AspNet.ScriptManager.jQuery.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.CrystalReports.Engine.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportSource.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.Shared.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\crystaldecisions.web.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\EntityFramework.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\EntityFramework.SqlServer.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.Agent.Intercept.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.DependencyCollector.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.Web.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.WindowsServer.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.ApplicationInsights.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.Google.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.ScriptManager.WebForms.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Web.Infrastructure.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Newtonsoft.Json.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Owin.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\System.Web.Optimization.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\System.Web.Providers.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\WebGrease.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Syncfusion.Linq.Base.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\stdole.dll
+F:\BaSma\16-12 last\medical work area\mid\bin\Antlr3.Runtime.pdb
+F:\BaSma\16-12 last\medical work area\mid\bin\EntityFramework.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\EntityFramework.SqlServer.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.DependencyCollector.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.Web.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AI.WindowsServer.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.ApplicationInsights.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.Google.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Newtonsoft.Json.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Syncfusion.EJ.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Syncfusion.EJ.Web.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\System.Web.Optimization.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\System.Web.Providers.xml
+F:\BaSma\16-12 last\medical work area\mid\bin\Syncfusion.Linq.Base.xml
+F:\BaSma\16-12 last\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
+F:\BaSma\16-12 last\medical work area\mid\obj\Debug\mid.dll
+F:\BaSma\16-12 last\medical work area\mid\obj\Debug\mid.pdb
+F:\basma\medical\medical work area\mid\obj\Debug\mid.csprojAssemblyReference.cache
+F:\basma\medical\medical work area\mid\obj\Debug\mid.dll
+F:\basma\medical\medical work area\mid\obj\Debug\mid.pdb
+F:\basma\medical\medical work area\mid\bin\ApplicationInsights.config
+F:\basma\medical\medical work area\mid\bin\roslyn\csc.exe
+F:\basma\medical\medical work area\mid\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\basma\medical\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\basma\medical\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\basma\medical\medical work area\mid\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\basma\medical\medical work area\mid\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\basma\medical\medical work area\mid\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\basma\medical\medical work area\mid\bin\roslyn\System.Collections.Immutable.dll
+F:\basma\medical\medical work area\mid\bin\roslyn\System.Reflection.Metadata.dll
+F:\basma\medical\medical work area\mid\bin\roslyn\vbc.exe
+F:\basma\medical\medical work area\mid\bin\roslyn\VBCSCompiler.exe
+F:\basma\medical\medical work area\mid\bin\roslyn\VBCSCompiler.exe.config
+F:\basma\medical\medical work area\mid\bin\mid.dll.config
+F:\basma\medical\medical work area\mid\bin\mid.dll
+F:\basma\medical\medical work area\mid\bin\mid.pdb
+F:\basma\medical\medical work area\mid\bin\AjaxControlToolkit.dll
+F:\basma\medical\medical work area\mid\bin\Antlr3.Runtime.dll
+F:\basma\medical\medical work area\mid\bin\AspNet.ScriptManager.bootstrap.dll
+F:\basma\medical\medical work area\mid\bin\AspNet.ScriptManager.jQuery.dll
+F:\basma\medical\medical work area\mid\bin\EntityFramework.dll
+F:\basma\medical\medical work area\mid\bin\EntityFramework.SqlServer.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.Agent.Intercept.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.DependencyCollector.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.Web.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.WindowsServer.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.ApplicationInsights.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.Google.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.ScriptManager.WebForms.dll
+F:\basma\medical\medical work area\mid\bin\Microsoft.Web.Infrastructure.dll
+F:\basma\medical\medical work area\mid\bin\Newtonsoft.Json.dll
+F:\basma\medical\medical work area\mid\bin\Owin.dll
+F:\basma\medical\medical work area\mid\bin\System.Web.Optimization.dll
+F:\basma\medical\medical work area\mid\bin\System.Web.Providers.dll
+F:\basma\medical\medical work area\mid\bin\WebGrease.dll
+F:\basma\medical\medical work area\mid\bin\Syncfusion.Linq.Base.dll
+F:\basma\medical\medical work area\mid\bin\stdole.dll
+F:\basma\medical\medical work area\mid\bin\Antlr3.Runtime.pdb
+F:\basma\medical\medical work area\mid\bin\EntityFramework.xml
+F:\basma\medical\medical work area\mid\bin\EntityFramework.SqlServer.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.DependencyCollector.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.Web.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.AI.WindowsServer.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.ApplicationInsights.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.Google.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.xml
+F:\basma\medical\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.xml
+F:\basma\medical\medical work area\mid\bin\Newtonsoft.Json.xml
+F:\basma\medical\medical work area\mid\bin\Syncfusion.EJ.xml
+F:\basma\medical\medical work area\mid\bin\Syncfusion.EJ.Web.xml
+F:\basma\medical\medical work area\mid\bin\System.Web.Optimization.xml
+F:\basma\medical\medical work area\mid\bin\System.Web.Providers.xml
+F:\basma\medical\medical work area\mid\bin\Syncfusion.Linq.Base.xml
+F:\basma\medical\medical work area\mid\obj\Debug\mid.csproj.CopyComplete
+F:\Ahmed(\For Dashbord\medical work area\mid\obj\Debug\mid.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\obj\Debug\mid.pdb
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\ApplicationInsights.config
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\mid.dll.config
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\mid.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\mid.pdb
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\AjaxControlToolkit.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Antlr3.Runtime.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\AspNet.ScriptManager.bootstrap.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\AspNet.ScriptManager.jQuery.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.CrystalReports.Engine.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportSource.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.Shared.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\crystaldecisions.web.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\EntityFramework.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\EntityFramework.SqlServer.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.DependencyCollector.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.Web.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.WindowsServer.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.ApplicationInsights.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.Google.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.ScriptManager.WebForms.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Web.Infrastructure.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Newtonsoft.Json.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Owin.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\System.Web.Optimization.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\System.Web.Providers.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\WebGrease.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\stdole.dll
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Antlr3.Runtime.pdb
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\EntityFramework.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\EntityFramework.SqlServer.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.DependencyCollector.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.Web.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AI.WindowsServer.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.ApplicationInsights.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.Google.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\Newtonsoft.Json.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\System.Web.Optimization.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\bin\System.Web.Providers.xml
+F:\Ahmed(\For Dashbord\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\ApplicationInsights.config
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\mid.dll.config
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\mid.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\mid.pdb
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\AjaxControlToolkit.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Antlr3.Runtime.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\AspNet.ScriptManager.bootstrap.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\AspNet.ScriptManager.jQuery.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportSource.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.Shared.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\crystaldecisions.web.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\EntityFramework.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\EntityFramework.SqlServer.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.DependencyCollector.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.Web.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.WindowsServer.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.ApplicationInsights.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.Google.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.ScriptManager.WebForms.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Newtonsoft.Json.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Owin.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Syncfusion.EJ.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Syncfusion.EJ.Web.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\System.Web.Optimization.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\System.Web.Providers.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\WebGrease.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Syncfusion.Linq.Base.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\stdole.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Antlr3.Runtime.pdb
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\EntityFramework.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\EntityFramework.SqlServer.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.DependencyCollector.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.Web.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AI.WindowsServer.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.ApplicationInsights.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.Google.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Newtonsoft.Json.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Syncfusion.EJ.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Syncfusion.EJ.Web.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\System.Web.Optimization.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\System.Web.Providers.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\bin\Syncfusion.Linq.Base.xml
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\obj\Debug\mid.csprojResolveAssemblyReference.cache
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\obj\Debug\mid.dll
+E:\ASP Department\eng basma\new-dashboardproject\medical work area\mid\obj\Debug\mid.pdb

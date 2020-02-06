@@ -1,0 +1,8 @@
+﻿.grid tr, .grid td
+{
+    padding:40px;
+    border-bottom:solid  1px Gray;
+}
+input{
+    border-radius:25px;
+}

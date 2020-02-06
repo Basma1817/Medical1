@@ -1,0 +1,89 @@
+﻿#example2 thead th {
+    font-size: 15px;
+}
+
+#example2 td, #example2 th, #example2 tr{
+    font-size: 13px;
+        width: 155px;
+
+}
+
+#example2 input {
+    border-radius: 0px;
+    width:333px;
+    border: 1px solid lightblue;
+
+}
+
+#MainContent_DropDownList2{
+    width:333px;
+    border: 1px solid lightblue;
+
+}
+
+#MainContent_DropDownList1 {
+    width:333px;
+    border: 1px solid lightblue;
+
+}
+
+#MainContent_DropDownList4 {
+    width:333px;
+    border: 1px solid lightblue;
+
+}
+
+#MainContent_DropDownList5 {
+    width:333px;
+    border: 1px solid lightblue;
+
+}
+
+#MainContent_DropDownList6 {
+    width:333px;
+    border: 1px solid lightblue;
+
+}
+
+#MainContent_DropDownList7 {
+    width:333px;
+    border: 1px solid lightblue;
+
+}
+
+
+#MainContent_Button1{
+        background-color: cadetblue;
+        width: 68px;
+        border-radius: 0;
+            border:none;
+
+}
+
+#MainContent_Button2{
+        background-color: #007bff;
+            border:none;
+                border-radius: 0;
+            width:54px;
+
+}
+
+
+#MainContent_Button3 {
+    background-color: #007bff;
+    width: 68px;
+    border-radius: 0;
+        border:none;
+
+}
+
+#MainContent_Button4 {
+    border:none;
+    width:54px;
+}
+
+select{
+     border-radius: 0px;
+    width:333px;
+    border: 1px solid lightblue;
+}
