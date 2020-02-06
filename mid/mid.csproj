@@ -308,6 +308,9 @@
     <Content Include="admin-lte\js\demo.js" />
     <Content Include="admin-lte\js\pages\dashboard.js" />
     <Content Include="admin-lte\js\pages\dashboard2.js" />
+    <Content Include="AMERA.aspx" />
+    <Content Include="AMERA2.aspx" />
+    <Content Include="Amera3.aspx" />
     <Content Include="asets_loc_delete.aspx" />
     <Content Include="asets_loc_show.aspx" />
     <Content Include="asets_locٌٌReport.aspx" />
@@ -5719,6 +5722,27 @@
     </Compile>
     <Compile Include="AllItemInGroup.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AMERA.aspx.cs">
+      <DependentUpon>AMERA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AMERA.aspx.designer.cs">
+      <DependentUpon>AMERA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AMERA2.aspx.cs">
+      <DependentUpon>AMERA2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AMERA2.aspx.designer.cs">
+      <DependentUpon>AMERA2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Amera3.aspx.cs">
+      <DependentUpon>Amera3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Amera3.aspx.designer.cs">
+      <DependentUpon>Amera3.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
