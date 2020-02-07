@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="mid.Dashboard" MasterPageFile="~/Site.Master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="basic_info.aspx.cs" Inherits="mid.basic_info" MasterPageFile="~/Site.Master" %>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
     <div class="row">
@@ -26,7 +26,7 @@
 
                 <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
                 <div class="info-box-content">
-                    <span class="info-box-text">الإعدادت</span>
+                    <span class="info-box-text"><a href="mts_custmr.aspx"><i class="fa fa-user"></i> <span>بيانات العملاء</span></a></span>
                     <%--<span class="info-box-number">90<small>%</small></span>--%>
                 </div>
                 <!-- /.info-box-content -->

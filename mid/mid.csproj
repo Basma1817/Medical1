@@ -2570,6 +2570,7 @@
     <Content Include="insert_mtsitems_cat.aspx" />
     <Content Include="update_mtsitems_cat.aspx" />
     <Content Include="insert_mtsitem_unit.aspx" />
+    <Content Include="basic_info.aspx" />
     <Content Include="wp-content\image\01.jpg" />
     <Content Include="wp-content\image\022e9691c5ba65d23cbf27a53f83163e.jpg" />
     <Content Include="wp-content\image\465731298.jpg.0.jpg" />
@@ -8173,6 +8174,13 @@
     </Compile>
     <Compile Include="viwStkitm.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="basic_info.aspx.cs">
+      <DependentUpon>basic_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="basic_info.aspx.designer.cs">
+      <DependentUpon>basic_info.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
