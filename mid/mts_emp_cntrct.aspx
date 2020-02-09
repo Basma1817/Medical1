@@ -43,7 +43,7 @@
         </div>
         </div>
             
-        <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
+        <div class="row">
             <div style="direction: rtl; padding: 10px 10px 10px 55px">
                 <asp:Label ID="Label1" runat="server" Text="رقم الموظف" Style="color: aliceblue;"></asp:Label>
 
@@ -58,13 +58,10 @@
 
             </div>
 
-            <div style="width: 100%; justify-content: center; padding-left: 55px; padding-right: 40px; text-align: center;">
+            <div>
                 <asp:GridView ID="GridView1" CssClass="table table-striped" runat="server" Style="direction: ltr; font-size: 14px;" GridLines="None" OnPageIndexChanging="GridView1_PageIndexChanging" BackColor="White"  >
                     <Columns>
                          <asp:HyperLinkField ControlStyle-BackColor="red" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="mts_emp_cntract_delete.aspx?no={0}" HeaderText="حذف" NavigateUrl="~/mts_emp_cntract_delete.aspx" Text='<i class="fa fa-trash"></i>' />
-
-
-                  
 
                         <asp:HyperLinkField ControlStyle-BackColor="Green" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="update_mts_emp_cntrct.aspx?no={0}" HeaderText="تعديل" NavigateUrl="~/update_mts_emp_cntrct.aspx" Text='<i class="fa fa-edit"></i>' />
 

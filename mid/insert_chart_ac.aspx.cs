@@ -17,19 +17,19 @@ namespace mid
         {
             if (!Page.IsPostBack)
             {
-                DropDownList2.DataValueField = "Costcntr_No";
-                DropDownList2.DataTextField = "Costcntr_Nmar";
-                DropDownList2.DataSource = db.MtsCostcntr.ToList();
+                DropDownList1.DataTextField = "Cmp_Nm";
+                DropDownList1.DataValueField = "Cmp_No";
+                DropDownList1.DataSource = db.MainCmpnam.ToList();
+                DropDownList1.DataBind();
+                ViewState["id"] = 0;
+                int no = int.Parse(DropDownList1.SelectedValue);
+
+                DropDownList2.DataTextField = "Name_Arb";
+                DropDownList2.DataValueField = "Actvty_No";
+                DropDownList2.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
                 DropDownList2.DataBind();
-
-
-                DropDownList3.DataValueField = "CLsacc_No";
-                DropDownList3.DataTextField = "CLsacc_NmAr";
-                DropDownList3.DataSource = db.MtsClosAcnt.ToList();
-                DropDownList3.DataBind();
-
-                ViewState["ID"] = "0";
-                TextBox9.Text = (1).ToString();
+                ViewState["ID"] = 0;
+                TextBox14.Text = (1).ToString();
                 
                 foreach (MtsChartAc chart in db.MtsChartAc.Where(o => o.Parnt_Acc == 0))
                 {
@@ -77,14 +77,14 @@ namespace mid
                         }
                     }
                 }
-                TextBox2.Text = new_id.ToString();
+                TextBox13.Text = new_id.ToString();
             }
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
             ViewState["ID"] = "0";
-            TextBox9.Text = (1).ToString();
+            TextBox14.Text = (1).ToString();
             int id = int.Parse(ViewState["ID"].ToString());
             int count = db.MtsChartAc.Count(o => o.Parnt_Acc == id);
             int new_id;
@@ -110,7 +110,7 @@ namespace mid
                     new_id = int.Parse(string.Concat(id.ToString(), count + 1));
                 }
             }
-            TextBox2.Text = new_id.ToString();
+            TextBox13.Text = new_id.ToString();
         }
 
         //protected void load_tree(int id)
@@ -147,20 +147,20 @@ namespace mid
                     var result = db.MtsChartAc.Where(o=>o.Acc_No==id).SingleOrDefault();
                     cn.Level_No = Convert.ToInt16(result.Level_No + 1);
                 }
-                cn.Acc_No = long.Parse(TextBox2.Text);
-                cn.Level_Status = Convert.ToInt16(RadioButtonList1.SelectedValue);
-                cn.Acc_Nm = TextBox3.Text;
-                cn.Acc_NmEng = TextBox4.Text;
+                cn.Acc_No = long.Parse(TextBox13.Text);
+                cn.Level_Status = Convert.ToInt16(RadioButtonList3.SelectedValue);
+                cn.Acc_Nm = TextBox15.Text;
+                cn.Acc_NmEng = TextBox16.Text;
                 if(CheckBox1.Checked)
-                cn.Costcntr_No = Convert.ToInt16(DropDownList2.SelectedValue);
-                cn.Clsacc_No1 = Convert.ToInt16(DropDownList3.SelectedValue);
-                cn.Acc_Ntr = Convert.ToInt16(RadioButtonList2.SelectedValue);
-                 if (string.IsNullOrEmpty(TextBox5.Text)||string.IsNullOrWhiteSpace(TextBox5.Text)) { }
+                cn.Costcntr_No = Convert.ToInt16(DropDownList6.SelectedValue);
+                cn.Clsacc_No1 = Convert.ToInt16(DropDownList7.SelectedValue);
+                cn.Acc_Ntr = Convert.ToInt16(RadioButtonList4.SelectedValue);
+                 if (string.IsNullOrEmpty(TextBox19.Text)||string.IsNullOrWhiteSpace(TextBox19.Text)) { }
                  else
-                 cn.Fbal_DB = Convert.ToDecimal(TextBox5.Text);
-                if (string.IsNullOrEmpty(TextBox6.Text) || string.IsNullOrWhiteSpace(TextBox6.Text)) { }
+                 cn.Fbal_DB = Convert.ToDecimal(TextBox19.Text);
+                if (string.IsNullOrEmpty(TextBox17.Text) || string.IsNullOrWhiteSpace(TextBox17.Text)) { }
                 else
-                cn.Fbal_CR = Convert.ToDecimal(TextBox6.Text);
+                cn.Fbal_CR = Convert.ToDecimal(TextBox17.Text);
                 //cn.Parnt_Acc = Convert.ToInt16(TextBox1.Text);
                 cn.Parnt_Acc = Convert.ToInt32(ViewState["ID"]);
 
@@ -195,14 +195,14 @@ namespace mid
                 int id = int.Parse(TreeView1.SelectedNode.Value);
                 ViewState["ID"] = id;
                 var cn = db.MtsChartAc.Where(o=>o.Acc_No==id).SingleOrDefault();
-                TextBox7.Text = cn.Parnt_Acc.ToString();
+                TextBox13.Text = cn.Parnt_Acc.ToString();
                 if (cn.Parnt_Acc > 0)
                 {
                     var parcn = db.MtsChartAc.Where(o => o.Acc_No == cn.Parnt_Acc).SingleOrDefault();
-                    TextBox8.Text = parcn.Acc_Nm;
+                    TextBox15.Text = parcn.Acc_Nm;
                 }
                 else
-                    TextBox8.Text = string.Empty;
+                    TextBox15.Text = string.Empty;
 
              id = int.Parse(ViewState["ID"].ToString());
             int count = db.MtsChartAc.Count(o => o.Parnt_Acc == id);
@@ -236,17 +236,17 @@ namespace mid
                     }
                 }
             }
-                TextBox2.Text = new_id.ToString();
+                TextBox13.Text = new_id.ToString();
 
                 if (int.Parse(ViewState["ID"].ToString()) == 0)
                 {
-                    TextBox9.Text = (1).ToString();
+                    TextBox14.Text = (1).ToString();
                 }
                 else
                 {
                     int i = int.Parse(ViewState["ID"].ToString());
                     var result = db.MtsChartAc.Where(o=>o.Acc_No==i).SingleOrDefault();
-                    TextBox9.Text = (Convert.ToInt16(result.Level_No + 1)).ToString();
+                    TextBox14.Text = (Convert.ToInt16(result.Level_No + 1)).ToString();
                 }
 
 
@@ -330,6 +330,20 @@ namespace mid
                 node.PopulateOnDemand = true;
                 TreeView1.Nodes.Add(node);
             }
+        }
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int no = int.Parse(DropDownList1.SelectedValue);
+
+            DropDownList1.DataTextField = "Cmp_Nm";
+            DropDownList1.DataValueField = "Cmp_No";
+            DropDownList1.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+            DropDownList1.DataBind();
+        }
+
+        protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
     }

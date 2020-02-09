@@ -15,17 +15,17 @@ namespace mid
             Label1.Text = "";
             if (!Page.IsPostBack)
             {
-                DropDownList3.DataValueField = "Dpm_No";
-                DropDownList3.DataTextField = "Dpm_Nm";
-                DropDownList3.DataSource = db.AstDprtmnt.ToList();
-                DropDownList3.DataBind();
+                DropDownList1.DataValueField = "Cmp_No";
+                DropDownList1.DataTextField = "Cmp_Nm";
+                DropDownList1.DataSource = db.MainCmpnam.ToList();
+                DropDownList1.DataBind();
+                int no = int.Parse(DropDownList1.SelectedValue);
 
-
-
-                DropDownList4.DataValueField = "Pymnt_No";
-                DropDownList4.DataTextField = "Pymnt_NmAr";
-                DropDownList4.DataSource = db.HrAstPymntype.ToList();
-                DropDownList4.DataBind();
+                DropDownList8.DataTextField = "Name_Arb";
+                DropDownList8.DataValueField = "Actvty_No";
+                DropDownList8.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+                DropDownList8.DataBind();
+                ViewState["id"] = 0;
                 TextBox1.Enabled = false;
                 if (db.MtsEmpcntrct.Count() == 0)
                     TextBox1.Text = (1).ToString();
@@ -94,6 +94,20 @@ namespace mid
         {
             Response.Redirect("mts_emp_cntrct.aspx");
         }
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int no = int.Parse(DropDownList1.SelectedValue);
+
+            DropDownList1.DataTextField = "Cmp_Nm";
+            DropDownList1.DataValueField = "Cmp_No";
+            DropDownList1.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+            DropDownList1.DataBind();
         }
+
+        protected void DropDownList8_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
     
 }

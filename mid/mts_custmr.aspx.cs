@@ -12,6 +12,8 @@ namespace mid
     {
         ICDBTrdAEntities db = new ICDBTrdAEntities();
 
+        public object GridView1 { get; private set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -34,19 +36,19 @@ namespace mid
         }
         protected void load_tree()
         {
-            //TreeView1.Nodes.Clear();
-            //int no = int.Parse(DropDownList4.SelectedValue);
-            //foreach (MtsCustmr cstm in db.MtsCustmr.Where(o => o.Cmp_No == no && o.Parent_Cstm == 0))
-            //{
-            //    TreeNode node = new TreeNode();
-            //    node.Text = cstm.Cstm_NmAr.ToString();
-            //    node.Value = cstm.Cstm_No.ToString();
-            //    //you can affect the node.NavigateUrl
+            TreeView1.Nodes.Clear();
+            int no = int.Parse(DropDownList4.SelectedValue);
+            foreach (MtsCustmr cstm in db.MtsCustmr.Where(o => o.Cmp_No == no && o.Parent_Cstm == 0))
+            {
+                TreeNode node = new TreeNode();
+                node.Text = cstm.Cstm_NmAr.ToString();
+                node.Value = cstm.Cstm_No.ToString();
+                //you can affect the node.NavigateUrl
 
-            //    node.PopulateOnDemand = true;
-            //    TreeView1.Nodes.Add(node);
-            //}
-            //TreeView1.CollapseAll();
+                node.PopulateOnDemand = true;
+                TreeView1.Nodes.Add(node);
+            }
+            TreeView1.CollapseAll();
         }
 
 
@@ -75,129 +77,129 @@ namespace mid
         protected void TreeView1_SelectedNodeChanged(object sender, EventArgs e)
         {
 
-            //int id = int.Parse(TreeView1.SelectedNode.Value);
-            //ViewState["id"] = id;
+            int id = int.Parse(TreeView1.SelectedNode.Value);
+            ViewState["id"] = id;
 
-            //var cn = db.MtsCustmr.Where(o => o.Cstm_No == id).SingleOrDefault();
+            var cn = db.MtsCustmr.Where(o => o.Cstm_No == id).SingleOrDefault();
 
 
-            //TextBox15.Text = cn.Cstm_NmAr.ToString();
-            //if (!string.IsNullOrEmpty(cn.Cstm_Email))
-            //    TextBox5.Text = cn.Cstm_Email.ToString();
-            //TextBox14.Text = cn.Cstm_No.ToString();
-            //TextBox2.Text = cn.Cstm_NmEn.ToString();
-            //if (!string.IsNullOrEmpty(cn.Tel1))
-            //    TextBox6.Text = cn.Tel1.ToString();
-            //if (!string.IsNullOrEmpty(cn.Cstm_Tel))
-            //    TextBox7.Text = cn.Cstm_Tel.ToString();
-            //if (!string.IsNullOrEmpty(cn.Mobile))
-            //    TextBox8.Text = cn.Mobile.ToString();
-            //if (!decimal.Equals(cn.Credit_Value, DBNull.Value))
-            //    TextBox9.Text = cn.Credit_Value.ToString();
-            //فئة المورد
-            //DropDownList2.SelectedValue = cn.Catg_No.ToString();
-            //DropDownList3.SelectedValue = cn.Cntry_No.ToString();
+            TextBox15.Text = cn.Cstm_NmAr.ToString();
+            if (!string.IsNullOrEmpty(cn.Cstm_Email))
+                TextBox5.Text = cn.Cstm_Email.ToString();
+            TextBox14.Text = cn.Cstm_No.ToString();
+            TextBox2.Text = cn.Cstm_NmEn.ToString();
+            if (!string.IsNullOrEmpty(cn.Tel1))
+                TextBox6.Text = cn.Tel1.ToString();
+            if (!string.IsNullOrEmpty(cn.Cstm_Tel))
+                TextBox7.Text = cn.Cstm_Tel.ToString();
+            if (!string.IsNullOrEmpty(cn.Mobile))
+                TextBox8.Text = cn.Mobile.ToString();
+            if (!decimal.Equals(cn.Credit_Value, DBNull.Value))
+                TextBox9.Text = cn.Credit_Value.ToString();
+            
+            DropDownList2.SelectedValue = cn.Catg_No.ToString();
+            DropDownList3.SelectedValue = cn.Cntry_No.ToString();
 
             //DropDownList1.SelectedValue = cn.curncy_no.ToString();
 
-            //TextBox16.Text = string.IsNullOrEmpty(cn.Cstm_Adr) ? "" : cn.Cstm_Adr.ToString();
+            TextBox16.Text = string.IsNullOrEmpty(cn.Cstm_Adr) ? "" : cn.Cstm_Adr.ToString();
             //TextBox3.Text = cn.Sup_Rsp.ToString();
-            //TextBox10.Text = cn.Credit_Days.ToString();
-            //TextBox1.Text = cn.Level_no.ToString();
-            //TextBox11.Text = cn.Fbal_CR.ToString();
-            //TextBox12.Text = cn.Fbal_Db.ToString();
-            //RadioButtonList1.SelectedValue = cn.Level_Status.ToString();
-            //TextBox26.Text = cn.Brn_No.ToString();
-            //var cn1 = db.MtsCustmrOthr.Where(o => o.Cstm_No == id).SingleOrDefault();
-            //if (cn1 != null)
-            //{
-            //    TextBox22.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn1) ? "" : cn1.Cntct_Prsn1.ToString();
-            //    TextBox30.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn2) ? "" : cn1.Cntct_Prsn2.ToString();
-            //    TextBox31.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn3) ? "" : cn1.Cntct_Prsn3.ToString();
-            //    TextBox35.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn4) ? "" : cn1.Cntct_Prsn4.ToString();
-            //    TextBox36.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn5) ? "" : cn1.Cntct_Prsn5.ToString();
-            //    TextBox23.Text = string.IsNullOrEmpty(cn1.TitL1) ? "" : cn1.TitL1.ToString();
-            //    TextBox37.Text = string.IsNullOrEmpty(cn1.TitL2) ? "" : cn1.TitL2.ToString();
-            //    TextBox38.Text = string.IsNullOrEmpty(cn1.TitL3) ? "" : cn1.TitL3.ToString();
-            //    TextBox39.Text = string.IsNullOrEmpty(cn1.TitL4) ? "" : cn1.TitL4.ToString();
-            //    TextBox40.Text = string.IsNullOrEmpty(cn1.TitL5) ? "" : cn1.TitL5.ToString();
-            //    TextBox24.Text = string.IsNullOrEmpty(cn1.Email1) ? "" : cn1.Email1.ToString();
-            //    TextBox42.Text = string.IsNullOrEmpty(cn1.Email1) ? "" : cn1.Email2.ToString();
-            //    TextBox43.Text = string.IsNullOrEmpty(cn1.Email3) ? "" : cn1.Email3.ToString();
-            //    TextBox44.Text = string.IsNullOrEmpty(cn1.Email4) ? "" : cn1.Email4.ToString();
-            //    TextBox41.Text = string.IsNullOrEmpty(cn1.Email5) ? "" : cn1.Email5.ToString();
-            //    TextBox25.Text = string.IsNullOrEmpty(cn1.Mobile1) ? "" : cn1.Mobile1.ToString();
-            //    TextBox45.Text = string.IsNullOrEmpty(cn1.Mobile2) ? "" : cn1.Mobile2.ToString();
-            //    TextBox46.Text = string.IsNullOrEmpty(cn1.Mobile3) ? "" : cn1.Mobile3.ToString();
-            //    TextBox47.Text = string.IsNullOrEmpty(cn1.Mobile4) ? "" : cn1.Mobile4.ToString();
-            //    TextBox48.Text = string.IsNullOrEmpty(cn1.Mobile5) ? "" : cn1.Mobile5.ToString();
-            //    TextBox60.Text = string.IsNullOrEmpty(cn1.Notes) ? "" : cn1.Notes.ToString();
-            //}
-            //else
-            //{
-            //    TextBox22.Text = "";
-            //    TextBox30.Text = "";
-            //    TextBox31.Text = "";
-            //    TextBox35.Text = "";
-            //    TextBox36.Text = "";
-            //    TextBox23.Text = "";
-            //    TextBox37.Text = "";
-            //    TextBox38.Text = "";
-            //    TextBox39.Text = "";
-            //    TextBox40.Text = "";
-            //    TextBox24.Text = "";
-            //    TextBox42.Text = "";
-            //    TextBox43.Text = "";
-            //    TextBox44.Text = "";
-            //    TextBox41.Text = "";
-            //    TextBox25.Text = "";
-            //    TextBox45.Text = "";
-            //    TextBox46.Text = "";
-            //    TextBox47.Text = "";
-            //    TextBox48.Text = "";
-            //    TextBox60.Text = "";
-            //}
+            TextBox10.Text = cn.Credit_Days.ToString();
+            TextBox1.Text = cn.Level_no.ToString();
+            TextBox11.Text = cn.Fbal_CR.ToString();
+            TextBox12.Text = cn.Fbal_Db.ToString();
+            RadioButtonList1.SelectedValue = cn.Level_Status.ToString();
+            TextBox26.Text = cn.Brn_No.ToString();
+            var cn1 = db.MtsCustmrOthr.Where(o => o.Cstm_No == id).SingleOrDefault();
+            if (cn1 != null)
+            {
+                TextBox22.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn1) ? "" : cn1.Cntct_Prsn1.ToString();
+                TextBox30.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn2) ? "" : cn1.Cntct_Prsn2.ToString();
+                TextBox31.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn3) ? "" : cn1.Cntct_Prsn3.ToString();
+                TextBox35.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn4) ? "" : cn1.Cntct_Prsn4.ToString();
+                TextBox36.Text = string.IsNullOrEmpty(cn1.Cntct_Prsn5) ? "" : cn1.Cntct_Prsn5.ToString();
+                TextBox23.Text = string.IsNullOrEmpty(cn1.TitL1) ? "" : cn1.TitL1.ToString();
+                TextBox37.Text = string.IsNullOrEmpty(cn1.TitL2) ? "" : cn1.TitL2.ToString();
+                TextBox38.Text = string.IsNullOrEmpty(cn1.TitL3) ? "" : cn1.TitL3.ToString();
+                TextBox39.Text = string.IsNullOrEmpty(cn1.TitL4) ? "" : cn1.TitL4.ToString();
+                TextBox40.Text = string.IsNullOrEmpty(cn1.TitL5) ? "" : cn1.TitL5.ToString();
+                TextBox24.Text = string.IsNullOrEmpty(cn1.Email1) ? "" : cn1.Email1.ToString();
+                TextBox42.Text = string.IsNullOrEmpty(cn1.Email1) ? "" : cn1.Email2.ToString();
+                TextBox43.Text = string.IsNullOrEmpty(cn1.Email3) ? "" : cn1.Email3.ToString();
+                TextBox44.Text = string.IsNullOrEmpty(cn1.Email4) ? "" : cn1.Email4.ToString();
+                TextBox41.Text = string.IsNullOrEmpty(cn1.Email5) ? "" : cn1.Email5.ToString();
+                TextBox25.Text = string.IsNullOrEmpty(cn1.Mobile1) ? "" : cn1.Mobile1.ToString();
+                TextBox45.Text = string.IsNullOrEmpty(cn1.Mobile2) ? "" : cn1.Mobile2.ToString();
+                TextBox46.Text = string.IsNullOrEmpty(cn1.Mobile3) ? "" : cn1.Mobile3.ToString();
+                TextBox47.Text = string.IsNullOrEmpty(cn1.Mobile4) ? "" : cn1.Mobile4.ToString();
+                TextBox48.Text = string.IsNullOrEmpty(cn1.Mobile5) ? "" : cn1.Mobile5.ToString();
+                TextBox60.Text = string.IsNullOrEmpty(cn1.Notes) ? "" : cn1.Notes.ToString();
+            }
+            else
+            {
+                TextBox22.Text = "";
+                TextBox30.Text = "";
+                TextBox31.Text = "";
+                TextBox35.Text = "";
+                TextBox36.Text = "";
+                TextBox23.Text = "";
+                TextBox37.Text = "";
+                TextBox38.Text = "";
+                TextBox39.Text = "";
+                TextBox40.Text = "";
+                TextBox24.Text = "";
+                TextBox42.Text = "";
+                TextBox43.Text = "";
+                TextBox44.Text = "";
+                TextBox41.Text = "";
+                TextBox25.Text = "";
+                TextBox45.Text = "";
+                TextBox46.Text = "";
+                TextBox47.Text = "";
+                TextBox48.Text = "";
+                TextBox60.Text = "";
+            }
 
-            //int no = int.Parse(DropDownList4.SelectedValue);
-            //DataSet dataSet = new DataSet("myDataSet");
-            //dataSet.Tables.Add(new DataTable());
+            int no = int.Parse(DropDownList4.SelectedValue);
+            DataSet dataSet = new DataSet("myDataSet");
+            dataSet.Tables.Add(new DataTable());
 
-            //Setup the table columns.
+           
 
 
-            //dataSet.Tables[0].Columns.Add("الشهر", typeof(string));
-            //dataSet.Tables[0].Columns.Add("الحركة مدين", typeof(int));
-            //dataSet.Tables[0].Columns.Add("الحركة دائن", typeof(int));
-            //dataSet.Tables[0].Columns.Add("الرصيد الحالي", typeof(int));
-            //dataSet.Tables[0].Columns.Add("الرصيد التقديرى", typeof(int));
-            //if ((db.MtsCustmr.Where(o => o.Cmp_No == no && o.Cstm_No == id).Count() > 0))
-            //{
-            //    for (int i = 1; i <= 12; i++)
-            //    {
-            //        var result = db.select_grid_MtsCustmr(id, i, no).SingleOrDefault();
-            //        DataRow row = dataSet.Tables[0].NewRow();
-            //        row["الشهر"] = result.month == null ? "" : result.month;
-            //        row["الحركة مدين"] = result.debit == null ? 0 : result.debit;
-            //        row["الحركة دائن"] = result.credit == null ? 0 : result.credit;
-            //        row["الرصيد الحالي"] = result.rassid == null ? 0 : result.rassid;
+            dataSet.Tables[0].Columns.Add("الشهر", typeof(string));
+            dataSet.Tables[0].Columns.Add("الحركة مدين", typeof(int));
+            dataSet.Tables[0].Columns.Add("الحركة دائن", typeof(int));
+            dataSet.Tables[0].Columns.Add("الرصيد الحالي", typeof(int));
+            dataSet.Tables[0].Columns.Add("الرصيد التقديرى", typeof(int));
+            if ((db.MtsCustmr.Where(o => o.Cmp_No == no && o.Cstm_No == id).Count() > 0))
+            {
+                for (int i = 1; i <= 12; i++)
+                {
+                    var result = db.select_grid_MtsCustmr(id, i, no).SingleOrDefault();
+                    DataRow row = dataSet.Tables[0].NewRow();
+                    row["الشهر"] = result.month == null ? "" : result.month;
+                    row["الحركة مدين"] = result.debit == null ? 0 : result.debit;
+                    row["الحركة دائن"] = result.credit == null ? 0 : result.credit;
+                    row["الرصيد الحالي"] = result.rassid == null ? 0 : result.rassid;
 
-            //        dataSet.Tables[0].Rows.Add(row);
-            //    }
+                    dataSet.Tables[0].Rows.Add(row);
+                }
 
-            //    DataRow total = dataSet.Tables[0].NewRow();
-            //    total["الشهر"] = "الإجمالي";
-            //    total["الحركة مدين"] = dataSet.Tables[0].Compute("sum([الحركة مدين])", "");
-            //    total["الحركة دائن"] = dataSet.Tables[0].Compute("sum([الحركة دائن])", "");
-            //    total["الرصيد الحالي"] = dataSet.Tables[0].Compute("sum([الرصيد الحالي])", "");
-            //    dataSet.Tables[0].Rows.Add(total);
+                DataRow total = dataSet.Tables[0].NewRow();
+                total["الشهر"] = "الإجمالي";
+                total["الحركة مدين"] = dataSet.Tables[0].Compute("sum([الحركة مدين])", "");
+                total["الحركة دائن"] = dataSet.Tables[0].Compute("sum([الحركة دائن])", "");
+                total["الرصيد الحالي"] = dataSet.Tables[0].Compute("sum([الرصيد الحالي])", "");
+                dataSet.Tables[0].Rows.Add(total);
 
-            //    GridView1.DataSource = dataSet.Tables[0];
 
-            //    GridView1.DataBind();
-            //}
+                GridView1.DataSource = dataSet.Tables[0];
+
+                GridView1.DataBind();
+            }
         }
-
-
+        
         protected void TreeView1_TreeNodePopulate(object sender, TreeNodeEventArgs e)
         {
             int id = int.Parse(e.Node.Value);
@@ -338,28 +340,28 @@ namespace mid
 
 
         //protected void Button5_Click(object sender, EventArgs e)
-        //  {
-        //try
         //{
-        //    //string name = TextBox28.Text;
-        //    int id = int.Parse(TextBox28.Text);
+        //    try
+        //    {
+        //        //string name = TextBox28.Text;
+        //        int id = int.Parse(TextBox28.Text);
 
-        //    var query = from p in db.MtsCustmr
-        //                where p.Cstm_No == id
-        //                select new
-        //                {
-        //                    رقم_التليفون = p.Tel1,
-        //                    رقم_الموبايل = p.Mobile,
-        //                    الايميل = p.Cstm_Email,
-        //                    عنوان_العميل = p.Cstm_Adr,
-        //                    اسم_العميل = p.Cstm_NmAr,
-        //                    رقم_العميل = p.Cstm_No
-        //                };
-        //    //GridView1.DataSource = query.ToList();
-        //    //GridView1.DataBind();
-        //}
-        //catch { }
-        //}
+        //        var query = from p in db.MtsCustmr
+        //                    where p.Cstm_No == id
+        //                    select new
+        //                    {
+        //                        رقم_التليفون = p.Tel1,
+        //                        رقم_الموبايل = p.Mobile,
+        //                        الايميل = p.Cstm_Email,
+        //                        عنوان_العميل = p.Cstm_Adr,
+        //                        اسم_العميل = p.Cstm_NmAr,
+        //                        رقم_العميل = p.Cstm_No
+        //                    };
+        //        //GridView1.DataSource = query.ToList();
+        //        //GridView1.DataBind();
+        //    }
+        //    catch { }
+        ////}
 
         protected void Button2_Click(object sender, EventArgs e)
         {
@@ -368,43 +370,43 @@ namespace mid
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //if (TreeView1.SelectedValue == "")
-            //{
-            //    string script = "alert(\"لم يتم إختيار عنصر للتعديل!\");";
-            //    ScriptManager.RegisterStartupScript(this, GetType(),
-            //                          "ServerControlScript", script, true);
-            //}
-            //else
-            //    Response.Redirect("update_delete_mts_custm.aspx?no=" + TreeView1.SelectedValue);
+            if (TreeView1.SelectedValue == "")
+            {
+                string script = "alert(\"لم يتم إختيار عنصر للتعديل!\");";
+                ScriptManager.RegisterStartupScript(this, GetType(),
+                                      "ServerControlScript", script, true);
+            }
+            else
+                Response.Redirect("update_delete_mts_custm.aspx?no=" + TreeView1.SelectedValue);
         }
         protected void Button4_Click(object sender, EventArgs e)
         {
 
 
-            //int id = int.Parse(ViewState["id"].ToString());
-            //ViewState["id"] = id;
+            int id = int.Parse(ViewState["id"].ToString());
+            ViewState["id"] = id;
 
-            //if (string.IsNullOrEmpty(TextBox14.Text))
-            //{
-            //    string script = "alert(\"لم يتم إختيار عنصر للحذف!\");";
-            //    ScriptManager.RegisterStartupScript(this, GetType(),
-            //                          "ServerControlScript", script, true);
-            //}
-            //else
-            //{
-            //    try
-            //    {
-            //        var cn = db.MtsCustmr.Where(o => o.Cstm_No == id).SingleOrDefault();
+            if (string.IsNullOrEmpty(TextBox14.Text))
+            {
+                string script = "alert(\"لم يتم إختيار عنصر للحذف!\");";
+                ScriptManager.RegisterStartupScript(this, GetType(),
+                                      "ServerControlScript", script, true);
+            }
+            else
+            {
+                try
+                {
+                    var cn = db.MtsCustmr.Where(o => o.Cstm_No == id).SingleOrDefault();
 
-            //        db.MtsCustmr.Remove(cn);
-            //        db.SaveChanges();
-            //    }
-            //    catch { }
+                    db.MtsCustmr.Remove(cn);
+                    db.SaveChanges();
+                }
+                catch { }
 
-            //    load_tree();
+                load_tree();
 
 
-            //}
+            }
         }
 
 

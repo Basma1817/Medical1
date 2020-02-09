@@ -308,9 +308,6 @@
     <Content Include="admin-lte\js\demo.js" />
     <Content Include="admin-lte\js\pages\dashboard.js" />
     <Content Include="admin-lte\js\pages\dashboard2.js" />
-    <Content Include="AMERA.aspx" />
-    <Content Include="AMERA2.aspx" />
-    <Content Include="Amera3.aspx" />
     <Content Include="asets_loc_delete.aspx" />
     <Content Include="asets_loc_show.aspx" />
     <Content Include="asets_locٌٌReport.aspx" />
@@ -2166,7 +2163,9 @@
     <Content Include="py_earn_type_delete.aspx" />
     <Content Include="py_earn_type_show.aspx" />
     <Content Include="reftypeٌٌReport.aspx" />
+    <Content Include="reftypmainadd.aspx" />
     <Content Include="reftypmainReport.aspx" />
+    <Content Include="reftypmainupdate.aspx" />
     <Content Include="ref_type_delete.aspx" />
     <Content Include="ref_type_main_delete.aspx" />
     <Content Include="ref_type_main_show.aspx" />
@@ -2571,6 +2570,8 @@
     <Content Include="update_mtsitems_cat.aspx" />
     <Content Include="insert_mtsitem_unit.aspx" />
     <Content Include="basic_info.aspx" />
+    <Content Include="basic_settings.aspx" />
+    <Content Include="WF_Pur_Invoic.aspx" />
     <Content Include="wp-content\image\01.jpg" />
     <Content Include="wp-content\image\022e9691c5ba65d23cbf27a53f83163e.jpg" />
     <Content Include="wp-content\image\465731298.jpg.0.jpg" />
@@ -5724,27 +5725,6 @@
     <Compile Include="AllItemInGroup.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="AMERA.aspx.cs">
-      <DependentUpon>AMERA.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AMERA.aspx.designer.cs">
-      <DependentUpon>AMERA.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AMERA2.aspx.cs">
-      <DependentUpon>AMERA2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AMERA2.aspx.designer.cs">
-      <DependentUpon>AMERA2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Amera3.aspx.cs">
-      <DependentUpon>Amera3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Amera3.aspx.designer.cs">
-      <DependentUpon>Amera3.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -6110,6 +6090,7 @@
     </Compile>
     <Compile Include="chart_ac.aspx.cs">
       <DependentUpon>chart_ac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="chart_ac.aspx.designer.cs">
       <DependentUpon>chart_ac.aspx</DependentUpon>
@@ -7477,6 +7458,13 @@
     <Compile Include="reftypeٌٌReport.aspx.designer.cs">
       <DependentUpon>reftypeٌٌReport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="reftypmainadd.aspx.cs">
+      <DependentUpon>reftypmainadd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reftypmainadd.aspx.designer.cs">
+      <DependentUpon>reftypmainadd.aspx</DependentUpon>
+    </Compile>
     <Compile Include="reftypmainRep.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -7489,6 +7477,13 @@
     </Compile>
     <Compile Include="reftypmainReport.aspx.designer.cs">
       <DependentUpon>reftypmainReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reftypmainupdate.aspx.cs">
+      <DependentUpon>reftypmainupdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reftypmainupdate.aspx.designer.cs">
+      <DependentUpon>reftypmainupdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="ref_type_delete.aspx.cs">
       <DependentUpon>ref_type_delete.aspx</DependentUpon>
@@ -8181,6 +8176,20 @@
     </Compile>
     <Compile Include="basic_info.aspx.designer.cs">
       <DependentUpon>basic_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="basic_settings.aspx.cs">
+      <DependentUpon>basic_settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="basic_settings.aspx.designer.cs">
+      <DependentUpon>basic_settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WF_Pur_Invoic.aspx.cs">
+      <DependentUpon>WF_Pur_Invoic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WF_Pur_Invoic.aspx.designer.cs">
+      <DependentUpon>WF_Pur_Invoic.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

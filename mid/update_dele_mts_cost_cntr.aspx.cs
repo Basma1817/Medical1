@@ -14,11 +14,25 @@ namespace mid
         {
             if (!Page.IsPostBack)
             {
-                TextBox1.Enabled = false;
-                DropDownList2.DataValueField = "Costcntr_No";
-                DropDownList2.DataTextField = "Costcntr_Nmar";
-                DropDownList2.DataSource = db.MtsCostcntr.ToList();
+                DropDownList1.DataTextField = "Cmp_Nm";
+                DropDownList1.DataValueField = "Cmp_No";
+                DropDownList1.DataSource = db.MainCmpnam.ToList();
+                DropDownList1.DataBind();
+                ViewState["id"] = 0;
+
+                int no = int.Parse(DropDownList1.SelectedValue);
+
+                DropDownList2.DataTextField = "Name_Arb";
+                DropDownList2.DataValueField = "Actvty_No";
+                DropDownList2.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
                 DropDownList2.DataBind();
+                ViewState["id"] = 0;
+
+                TextBox1.Enabled = false;
+                DropDownList3.DataValueField = "Costcntr_No";
+                DropDownList3.DataTextField = "Costcntr_Nmar";
+                DropDownList3.DataSource = db.MtsCostcntr.ToList();
+                DropDownList3.DataBind();
                 var id = int.Parse(Request.QueryString["no"]);
                 var cn = db.MtsCostcntr.Where(o => o.Costcntr_No == id).SingleOrDefault();
                 ViewState.Add("ID", id);
@@ -149,6 +163,33 @@ namespace mid
             catch { }
         }
 
+        protected void DropDownList3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            short id = short.Parse(DropDownList1.SelectedValue);
+
+
+
+            DropDownList3.DataTextField = "Costcntr_Nmar";
+            DropDownList3.DataValueField = "Costcntr_No";
+            DropDownList3.DataSource = db.MtsCostcntr.Where(o => o.Cmp_No == id).ToList();
+            DropDownList3.DataBind();
+
+            //load_tree();
+        }
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int no = int.Parse(DropDownList1.SelectedValue);
+
+            DropDownList1.DataTextField = "Cmp_Nm";
+            DropDownList1.DataValueField = "Cmp_No";
+            DropDownList1.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+            DropDownList1.DataBind();
+        }
+
+        protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
 
     }
 }

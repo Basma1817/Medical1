@@ -19,17 +19,23 @@ namespace mid
                 TextBox14.Enabled = false;
                 TextBox1.Enabled = false;
 
+
+                TextBox1.Enabled = false;
+                TextBox14.Enabled = false;
                 DropDownList4.DataValueField = "Cmp_No";
                 DropDownList4.DataTextField = "Cmp_Nm";
                 DropDownList4.DataSource = db.MainCmpnam.ToList();
                 DropDownList4.DataBind();
-                TextBox17.Text = DropDownList4.SelectedValue;
-                
-                DropDownList5.DataValueField = "Brn_No";
-                DropDownList5.DataTextField = "Brn_NmAr";
-                DropDownList5.DataSource = db.MainBranch.ToList();
-                DropDownList5.DataBind();
-                
+                TextBox28.Text = DropDownList4.SelectedValue;
+
+
+                //DropDownList5.DataValueField = "Name_Arb";
+                //DropDownList5.DataTextField = "Actvty_No";
+                //DropDownList5.DataSource = db.ActivityTypes.Where(o => o.cmp_no == int.Parse(DropDownList1.SelectedValue)).ToList();
+                //DropDownList5.DataBind();
+                //TextBox26.Text = DropDownList5.SelectedValue;
+
+
                 int id = int.Parse(Request.QueryString["no"]);
                 var cn = db.MtsSuplir.Where(o => o.Sup_No == id).SingleOrDefault();
                 ViewState.Add("id", id);
@@ -145,7 +151,7 @@ namespace mid
         }
         protected void DropDownList4_SelectedIndexChanged(object sender, EventArgs e)
         {
-            TextBox17.Text = DropDownList4.SelectedValue;
+            TextBox28.Text = DropDownList4.SelectedValue;
             int no = int.Parse(DropDownList4.SelectedValue);
             DropDownList5.DataValueField = "Brn_No";
             DropDownList5.DataTextField = "Brn_NmAr";

@@ -8,68 +8,38 @@ using System.Web.UI.WebControls;
 
 namespace mid
 {
-    public static class MessageBox
-    {
-        //public static bool Show(this Page Page, String Message)
-        //{
-        //    //bool answer=false;
-        //    return (Page.ClientScript.RegisterStartupScript(
-        //       Page.GetType(),
-        //       "MessageBox",
-        //       " return confirm('"+Message+"')"
-        //       //"<script language='javascript'>alert('" + Message + "');</script>"
-        //    ));
-        //    //return answer;
-        //}
-    }
     public partial class chart_ac : System.Web.UI.Page
     {
         ICDBTrdAEntities db = new ICDBTrdAEntities();
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            DropDownList1.DataValueField = "Cmp_No";
-            DropDownList1.DataTextField = "Cmp_Nm";
-            DropDownList1.DataSource = db.MainCmpnam.ToList();
-            DropDownList1.DataBind();
-
-
-            //ClientScript.RegisterStartupScript(this.GetType(), "Popup", "$('#loginModal').modal('show')", true);
             if (!IsPostBack)
             {
-                //var query = from p in db.MtsChartAc
-                //                // where p.Cntry_No == id
-                //            select new
-                //            {
+                try
+                {
+                    DropDownList1.DataTextField = "Cmp_Nm";
+                    DropDownList1.DataValueField = "Cmp_No";
+                    DropDownList1.DataSource = db.MainCmpnam.ToList();
+                    DropDownList1.DataBind();
+                    ViewState["id"] = 0;
+                    int no = int.Parse(DropDownList1.SelectedValue);
 
-                //                مدين = p.Fbal_DB,
-                //                دائن = p.Fbal_CR,
-                //                اسم_الحساب_انجليزى = p.Acc_NmEng,
-                //                اسم_الحساب = p.Acc_Nm,
-                //                رقم_الحساب = p.Acc_No
-                //            };
-                //GridView1.DataSource = query.ToList();
-                //GridView1.DataBind();
-
-                ViewState["id"] = 0;
-                //Button1.Enabled = false;
-                //HyperLink1.Enabled = false;
-                //Button4.Enabled = false;
-                load_tree();
-
-                //////////// tree view 
-                //foreach (MtsChartAc chart in db.MtsChartAc.Where(o => o.Parnt_Acc == 0))
-                //{
-                //    TreeNode node = new TreeNode();
-                //    node.Text = chart.Acc_Nm.ToString();
-                //    node.Value = chart.Acc_No.ToString();
-                //    //you can affect the node.NavigateUrl
-
-                //    node.PopulateOnDemand = true;
-                //    TreeView1.Nodes.Add(node);
-                //}
-                ////Session.Add("tree_node_path", " ");
-                //TreeView1.CollapseAll();
+                    DropDownList2.DataTextField = "Name_Arb";
+                    DropDownList2.DataValueField = "Actvty_No";
+                    DropDownList2.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+                    DropDownList2.DataBind();
+                    ViewState["id"] = 0;
+                    var query = from p in db.MtsChartAc
+                                select new
+                                {
+                                    اول_المده_مدين = p.Fbal_DB,
+                                    اول_المده_دائن = p.Fbal_CR,
+                                    اسم_الحساب = p.Acc_Nm,
+                                    رقم_الحساب = p.Acc_No
+                                };
+                    load_tree();
+                }
+                catch { }
             }
         }
 
@@ -101,24 +71,7 @@ namespace mid
             }
             else
                 Response.Redirect("update_chart_ac.aspx?no=" + ViewState["id"]);
-            //try
-            //{
-            //    int id = int.Parse(TextBox1.Text);
-            //    var query = from p in db.MtsChartAc
-            //                where p.Acc_No == id
-            //                select new
-            //                {
-
-            //                    مدين = p.Fbal_DB,
-            //                    دائن = p.Fbal_CR,
-            //                    اسم_الحساب_انجليزى = p.Acc_NmEng,
-            //                    اسم_الحساب = p.Acc_Nm,
-            //                    رقم_الحساب = p.Acc_No
-            //                };
-            //    GridView1.DataSource = query.ToList();
-            //    GridView1.DataBind();
-            //}
-            //catch { }
+           
         }
         protected void Button7_Click(object sender, EventArgs e)
         {
@@ -166,11 +119,12 @@ namespace mid
             var cn = db.MtsChartAc.Where(o => o.Acc_No == id).SingleOrDefault();
 
             TextBox5.Text = cn.Acc_No.ToString();
-            //TextBox2.Text = cn.Level_No.ToString();
+
             RadioButtonList1.SelectedValue = cn.Level_Status.ToString();
             TextBox6.Text = cn.Acc_Nm;
             TextBox7.Text = cn.Acc_NmEng;
-            DropDownList2.SelectedValue = cn.Costcntr_No.ToString();
+            DropDownList4.SelectedValue = cn.Costcntr_No.ToString();
+            DropDownList5.SelectedValue = cn.Clsacc_No2.ToString();
             DropDownList3.SelectedValue = cn.Clsacc_No1.ToString();
             RadioButtonList2.SelectedValue = cn.Acc_Ntr.ToString();
             TextBox8.Text = cn.Fbal_DB.ToString();
@@ -291,49 +245,27 @@ namespace mid
         }
         protected void Button4_Click(object sender, EventArgs e)
         {
-            //ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('are you sure of delete?{0}')"+db.MtsChartAc.Where(o=>o.Acc_No == int.Parse(ViewState["id"].ToString())).Select(o=>o.Acc_Nm), true);
+
             int id = int.Parse(ViewState["id"].ToString());
-            //string name = db.MtsChartAc.Where(o => o.Acc_No == id).Select(o => o.Acc_Nm).SingleOrDefault();
-            //string confirmValue = Request.Form["confirm_value"];
-            //if (confirmValue == "Yes")
-            //{
-            if (id == 0)
             {
-                string script = "alert(\"لم يتم إختيار عنصر للحذف!\");";
-                ScriptManager.RegisterStartupScript(this, GetType(),
-                                      "ServerControlScript", script, true);
-            }
-            else
-            {
-                try
+                if (id == 0)
                 {
-                    var cn = db.MtsChartAc.Where(o=>o.Acc_No == id).SingleOrDefault();
-                    db.MtsChartAc.Remove(cn);
-                    db.SaveChanges();
+                    string script = "alert(\"لم يتم إختيار عنصر للحذف!\");";
+                    ScriptManager.RegisterStartupScript(this, GetType(),
+                                          "ServerControlScript", script, true);
                 }
-                catch { }
-                load_tree();
+                else
+                {
+                    try
+                    {
+                        var cn = db.MtsChartAc.Where(o => o.Acc_No == id).SingleOrDefault();
+                        db.MtsChartAc.Remove(cn);
+                        db.SaveChanges();
+                    }
+                    catch { }
+                    load_tree();
+                }
             }
-            //}
-            //else
-            //{
-            //    // do nothing
-            //}
-
-            //if(MessageBox.Show(this, "Are you sure to delete "+name+" ? "))
-            //{
-            //    try
-            //    {
-            //        var cn = db.MtsChartAc.Find(id);
-            //        db.MtsChartAc.Remove(cn);
-            //        db.SaveChanges();
-            //    }
-            //    catch { }
-            //}
-            //else
-            //{
-
-            //}
         }
         //protected void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)
         //{
@@ -394,60 +326,24 @@ namespace mid
             }
         }
 
-        //protected void TreeView1_SelectedNodeChanged(object sender, EventArgs e)
-        //{
-        //    int id = int.Parse(TreeView1.SelectedNode.Value);
-        //    ViewState["id"] = id;
-        //    var cn = db.MtsChartAc.Where(o => o.Acc_No == id).SingleOrDefault();
-            
-        //    TextBox1.Text = cn.Parnt_Acc.ToString();
-        //    if (cn.Parnt_Acc > 0)
-        //    {
-        //        var parcn = db.MtsChartAc.Where(o =>o.Acc_No  == cn.Parnt_Acc).SingleOrDefault();
-        //        TextBox2.Text = parcn.Acc_Nm;
-        //    }
-        //    else
-        //        TextBox2.Text = string.Empty;
-        //    TextBox3.Text = cn.Acc_No.ToString();
-        //    TextBox4.Text = cn.Acc_Nm;
-        //    if(int.Parse(ViewState["id"].ToString())>0)
-        //    {
-        //        Button1.Enabled = true;
-        //        //HyperLink1.Enabled = true;
-        //        //Button4.Enabled = true;
-        //    }
-        //    else
-        //    {
-        //        Button1.Enabled = false;
-        //        //HyperLink1.Enabled = false;
-        //        //Button4.Enabled = false;
-        //    }
-
-        //    //try
-        //    //{
-        //    //    //Session["tree_node_path"] = TreeView1.SelectedNode.ValuePath;
-        //    //    int id = int.Parse(TreeView1.SelectedNode.Value);
-        //    //    var query = from p in db.MtsChartAc
-        //    //                where p.Acc_No == id
-        //    //                select new
-        //    //                {
-
-        //    //                    مدين = p.Fbal_DB,
-        //    //                    دائن = p.Fbal_CR,
-        //    //                    اسم_الحساب_انجليزى = p.Acc_NmEng,
-        //    //                    اسم_الحساب = p.Acc_Nm,
-        //    //                    رقم_الحساب = p.Acc_No
-        //    //                };
-        //    //    GridView1.DataSource = query.ToList();
-        //    //    GridView1.DataBind();
-        //    //}
-        //    //catch { }
-        //}
-
 
         protected void Button3_Click(object sender, EventArgs e)
         {
             Response.Redirect("chart_acreport.aspx");
+        }
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int no = int.Parse(DropDownList1.SelectedValue);
+
+            DropDownList1.DataTextField = "Cmp_Nm";
+            DropDownList1.DataValueField = "Cmp_No";
+            DropDownList1.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+            DropDownList1.DataBind();
+        }
+
+        protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

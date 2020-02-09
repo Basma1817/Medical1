@@ -16,6 +16,10 @@
              border: none !important; 
             transition: all .3s ease-in-out;
         }
+
+        .row{
+            margin-bottom:30px;
+        }
         .nav-pills>li.active>a:hover{
             transition: all .2s ease-in-out;
         }
@@ -33,6 +37,30 @@
             color: #fff;
              transition: all .3s ease-in-out;
         }
+        th{
+            text-align:right;
+        }
+          #bill{
+             background-color:#d8effb;           
+            border-right:solid 1px black;
+            border-left:solid 1px black;
+            border-bottom:solid 1px black;
+            margin-bottom:20px;
+            width:230px;
+            height:150px;
+           
+
+
+        }
+         #bill1{
+             background-color:#d8effb;
+            border-right:solid 1px black;
+            border-left:solid 1px black;
+            border-bottom:solid 1px black;
+            margin-bottom:20px;
+            width:230px;
+            height:150px;
+              }
         /*.nav-pills>li>a{
              font-size: 18px;*/
     </style>
@@ -489,213 +517,128 @@
             </div>
           
     </div>
-            
-                    <%--<div class="row" style="margin: 13px 304px; font-size: 16px;">
-                        <div class="col-xs-6 col-sm-3" style="margin: 0px -289px 0px 158px;">
-                            المسئول
-                      <br />
-                            <asp:TextBox ID="TextBox22" Style="width: 250px; margin: 10% 0 0 -37%; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
 
-                        <div class="col-xs-6 col-sm-3">
-                            الوظيفه
-                            <br />
-                            <asp:TextBox ID="TextBox23" Style="width: 230px; margin: 9% -51% 0 0; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-
-                        <div class="col-xs-6 col-sm-3" style="margin: -67px 346px;">
-                            بريدالكترونى
-                            <br />
-                            <asp:TextBox ID="TextBox24" Style="width: 220px; margin: 15% -121% 0 -25%; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-
-                        <div class="col-xs-6 col-sm-3" style="margin: -59px 122% -66px 0px;">
-                            موبيل
-                            <br />
-                            <asp:TextBox ID="TextBox25" Style="width: 175px; margin: 10% 0 0 -24%; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-
-
-                    </div>
-
-
-                    <div class="row" style="margin: 47px -95px 0 0; font-size: 16px;">
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox30" Style="width: 250px; margin: -10% -155px 0 0; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox37" Style="width: 230px; margin: -10% -51% 0 0; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox41" Style="width: 220px; margin: -10% -53% 0 -24%; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox45" Style="width: 175px; margin: -10% -59.6% 0 -24%; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                    </div>
-
-
-
-                    <div class="row" style="margin: 47px -95px 0 0; font-size: 16px;">
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox31" Style="width: 250px; margin: -10% -155px 0 0; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox38" Style="width: 230px; margin: -10% -51% 0 0; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox42" Style="width: 220px; margin: -10% -53% 0 -24%; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox46" Style="width: 175px; margin: -10% -59.6% 0 -24%; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                    </div>
-
-
-                    <div class="row" style="margin: 47px -95px 0 0; font-size: 16px;">
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox35" Style="width: 250px; margin: -10% -155px 0 0; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox39" Style="width: 230px; margin: -10% -51% 0 0; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox43" Style="width: 220px; margin: -10% -53% 0 -24%; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox47" Style="width: 175px; margin: -10% -59.6% 0 -27%; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                    </div>
-
-                    <div class="row" style="margin: 47px -95px 0 0; font-size: 16px;">
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox36" Style="width: 250px; margin: -10% -155px 0 0; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox40" Style="width: 230px; margin: -10% -51% 0 0; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox44" Style="width: 220px; margin: -10% -53% 0 -24%; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                        <div class="col-xs-6 col-sm-3">
-                            <asp:TextBox ID="TextBox48" Style="width: 175px; margin: -10% -59.6% 0 -24%; position: absolute; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                        </div>
-                    </div>
-
-                    <div style="margin: 25px 387px;">
-                        ملاحظات 
-
-                         <asp:TextBox ID="TextBox60" runat="server" Style="margin: 14px -36px; border-radius: 0px; width: 584px; padding: 10px;"></asp:TextBox>
-                    </div>--%>
-
-                </div>
+      </div>
 
                 <div id="info" class="container tab-pane fade">
-                    <div class="row" style="width: 1px; margin: 13px 304px; font-size: 16px;">
-                        <div class="col-xs-6 col-sm-3">
 
-                            <table style="margin: -11px -258px; position: absolute; font-size: 13px;">
+                <div class="row">
+                <!--first table-->
+                <div class="col-sm-6">
+                    <div id="bill" >
+                        <span style="color:blue" > اخر فاتورة مشتريات</span>
+                          <table class="data">
+                           <tr>
+                               <td>رقم الفاتورة</td>
+                               <td>
+                                   <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                               </td>
 
-                                <tr>
-                                    <td style="position: absolute; margin: -4% -84%">رقم المورد</td>
-                                    <td>
-                                        <asp:TextBox ID="TextBox51" runat="server" Style="position: absolute; margin: -3% -156%; width: 60px; border-radius: 0px;"></asp:TextBox>
-                                    </td>
+                           </tr>
+                          
+                            <tr>
+                               <td>تاريخ الفاتورة</td>
+                               <td>
+                                   <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                               </td>
 
-                                    <td style="margin: -3% -117%; position: absolute;">اسم المورد </td>
-                                    <td>
-                                        <asp:TextBox ID="TextBox50" runat="server" Style="position: absolute; margin: -3% -85%; border-radius: 0px;"></asp:TextBox>
-                                    </td>
+                           </tr>
+                          
+                            
+                            <tr>
+                               <td>مبلغ الفاتورة</td>
+                               <td>
+                                   <asp:TextBox ID="TextBox18" runat="server"></asp:TextBox>
+                               </td>
 
-                                </tr>
-                                <tr>
-                                    <td style="margin: 32px -3px; position: absolute;">EN  </td>
-                                    <td>
-                                        <asp:TextBox ID="TextBox52" runat="server" Style="margin: 30px; border-radius: 0px;"></asp:TextBox>
-                                    </td>
-                                    <td style="position: absolute; margin: -6% 4%">أ.م دائن</td>
-                                    <td>
-                                        <asp:TextBox ID="TextBox53" runat="server" Style="margin: -49px 53px 0px 0px; position: absolute; border-radius: 0px;"></asp:TextBox>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td style="position: absolute; margin: -22% 104%;">مدين</td>
-                                    <td>
-                                        <asp:TextBox ID="TextBox54" runat="server" Style="border-radius: 0px; position: absolute; margin: -51px 55px"></asp:TextBox>
-                                    </td>
-                                </tr>
-
-                            </table>
-
-                            <fieldset style="border: 1px solid; margin: -44% 1456%; padding: 10px; width: 223px; background-color: aliceblue; position: absolute;">
-                                <legend>اخر فاتورة مشتريات</legend>
-
-                                <table>
-                                    <tr>
-                                        <td>رقم فاتوره
-                                        </td>
-                                        <td>
-                                            <asp:TextBox ID="TextBox3" Style="width: 140px; margin: 0 5px 6px 100%; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                                        </td>
-                                    </tr>
-                                    <tr>
-
-                                        <td>تاريخ الفاتوره
-                                        </td>
-                                        <td>
-                                            <asp:TextBox ID="TextBox4" Style="width: 140px; margin: 0 5px 6px 100%; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <td>مبلغ الفاتوره
-                                        </td>
-                                        <td>
-                                            <asp:TextBox ID="TextBox18" Style="width: 140px; margin: 0 5px 6px 100%; border: 1px solid lightblue; border-radius: 0px;" runat="server"></asp:TextBox>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </fieldset>
-                            <fieldset style="border: 1px solid; margin: 564% 1450% 0 0; padding: 10px; background-color: aliceblue; width: 223px; position: absolute;">
-                                <legend>اخر سند صرف</legend>
-                                <table>
-                                    <tr>
-                                        <td>رقم سند 
-                                        </td>
-                                        <td>
-                                            <asp:TextBox ID="TextBox19" Style="width: 140px; margin: 0 5px 6px 100%; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                                        </td>
-                                    </tr>
+                           </tr>
+                       </table>
+                    </div>
+                      <div id="bill1" >
+                        <span style="color:blue" > اخر سند صرف</span>
 
 
-                                    <tr>
-                                        <td>تاريخ السند
-                                        </td>
-                                        <td>
-                                            <asp:TextBox ID="TextBox20" Style="width: 140px; margin: 0 5px 6px 100%; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                                        </td>
+                       <table class="data">
+                           <tr>
+                               <td>رقم السند</td>
+                               <td>
+                                   <asp:TextBox ID="TextBox19" runat="server"></asp:TextBox>
+                               </td>
 
-                                    </tr>
+                           </tr>
+                          
+                            <tr>
+                               <td>تاريخ السند</td>
+                               <td>
+                                   <asp:TextBox ID="TextBox20" runat="server"></asp:TextBox>
+                               </td>
 
-                                    <tr>
-                                        <td>المبلغ
-                                        </td>
-                                        <td>
-                                            <asp:TextBox ID="TextBox21" Style="width: 140px; margin: 0 5px 6px 100%; border-radius: 0px; height: 30px; border: 1px solid lightblue;" runat="server"></asp:TextBox>
-                                        </td>
+                           </tr>
+                            
+                            <tr>
+                               <td>المبلغ </td>
+                               <td>
+                                   <asp:TextBox ID="TextBox21" runat="server"></asp:TextBox>
+                               </td>
 
-                                    </tr>
-                                </table>
-                            </fieldset>
+                           </tr>
+                       </table>
+                       
+                    </div>
+                </div>
+                <!--second table-->
+                <div class="col-sm-6">
+                    <table class="table table-striped">
+ 
+                     <tbody>
+                    <tr>
+                      <th scope="row">اسم المورد</th>
+                      <td>
+                          <asp:TextBox ID="TextBox51" runat="server"></asp:TextBox>
+
+                      </td>
+                      <td>رقم المورد</td>
+                      <td>
+                          <asp:TextBox ID="TextBox50" runat="server"></asp:TextBox>
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">EN</th>
+                      <td>
+                          <asp:TextBox ID="TextBox52" runat="server"></asp:TextBox>
+
+                      </td>
+                      <td> أول المدة دائن</td>
+                      <td>
+                          <asp:TextBox ID="TextBox53" runat="server"></asp:TextBox>
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row"></th>
+                      <td>
+
+                      </td>
+                      <td>مدين</td>
+                      <td>
+                          <asp:TextBox ID="TextBox54" runat="server"></asp:TextBox>
+
+                      </td>
+                    </tr>
+             </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--end table-->
+
 
                             <div>
                                 <asp:GridView ID="GridView1" runat="server" CssClass="table table-striped" BackColor="White" Style="font-size: 12px; margin: 99px 438px; width: 660px; text-align: center; border-color: #5bc0de;"></asp:GridView>
                             </div>
 
                         </div>
-                    </div>
-                </div>
+                  
             </div>
         
               

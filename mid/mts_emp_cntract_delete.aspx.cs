@@ -15,6 +15,18 @@ namespace mid
             Label1.Text = "";
             if (!Page.IsPostBack)
             {
+                DropDownList1.DataValueField = "Cmp_No";
+                DropDownList1.DataTextField = "Cmp_Nm";
+                DropDownList1.DataSource = db.MainCmpnam.ToList();
+                DropDownList1.DataBind();
+                int no = int.Parse(DropDownList1.SelectedValue);
+
+                DropDownList8.DataTextField = "Name_Arb";
+                DropDownList8.DataValueField = "Actvty_No";
+                DropDownList8.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+                DropDownList8.DataBind();
+                ViewState["id"] = 0;
+
                 TextBox1.Enabled = false;
                 DropDownList3.DataValueField = "Dpm_No";
                 DropDownList3.DataTextField = "Dpm_Nm";
@@ -37,7 +49,7 @@ namespace mid
                 TextBox4.Text = cn.Cnt_Stdt;
                 TextBox5.Text = cn.Cnt_Endt;
                 TextBox6.Text = cn.Cnt_Nwdt;
-                DropDownList1.SelectedValue = cn.salry_typ.ToString();
+                RadioButtonList1.SelectedValue = cn.salry_typ.ToString();
                 DropDownList3.SelectedValue = cn.Depm_No.ToString();
                 TextBox7.Text = cn.Bsc_Salary.ToString();
                 DropDownList4.SelectedValue = cn.Pymnt_No.ToString();
@@ -94,6 +106,20 @@ namespace mid
                 //GridView1.DataSource = query.ToList();
                 //GridView1.DataBind();
             }
+        }
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int no = int.Parse(DropDownList1.SelectedValue);
+
+            DropDownList1.DataTextField = "Cmp_Nm";
+            DropDownList1.DataValueField = "Cmp_No";
+            DropDownList1.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+            DropDownList1.DataBind();
+        }
+
+        protected void DropDownList8_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
