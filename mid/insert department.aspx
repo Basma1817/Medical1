@@ -9,7 +9,7 @@
         </div>
       <div class="row">
         <div class="col-lg-5" style="display: flex; justify-content: flex-end">
-            <asp:Button ID="Button3" runat="server" type="submit" Text="حفظ" OnClick="Button3_Click" class="btn btn-success" />
+            <asp:Button ID="Button1" runat="server" type="submit" Text="حفظ" OnClick="Button1_Click" class="btn btn-success" />
             <asp:Button ID="Button2" runat="server" type="submit" Text="تراجع" OnClick="Button2_Click" class="btn btn-success" />
         </div>
           </div>
@@ -36,24 +36,19 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:Label ID="Label2" runat="server" Text=" اسم الادارة  "></asp:Label></td>
+                                        <asp:Label ID="Label2" runat="server" Text=" ARاسم الادارة  "></asp:Label></td>
                                     <td>
                                         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                                     </td>
-                                    <td>
-                                        <asp:Label ID="Label4" runat="server" Text="AR"></asp:Label></td>
-
                                 </tr>
                                 <tr>
                                     <td>
-                                        <asp:Label ID="Label5" runat="server" Text=" "></asp:Label>
+                                        <asp:Label ID="Label5" runat="server" Text=" EN "></asp:Label>
                                     </td>
                                     <td>
                                         <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
                                     </td>
-                                    <td>
-                                        <asp:Label ID="Label6" runat="server" Text="EN " ></asp:Label></td>
-
+                                  
                                 </tr>
                                 <tr>
                                     <td>
@@ -71,56 +66,9 @@
                     </div>
                     <!-- /.box-body -->
                 </div>
-                <!-- /.box -->
 
-
-                <!-- /.box -->
             </div>
             <!-- /.col -->
         </div>
-        <!-- /.row -->
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <%--  <table class="grid">
         
-                <tr>
-            <td>
-                <asp:Label ID="Label2" runat="server" Text="اسم الاداره"></asp:Label></td>
-            <td>
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-            </td>
-        </tr>
-                <tr>
-            <td>
-                <asp:Label ID="Label3" runat="server" Text="عدد الموظفين"></asp:Label></td>
-            <td>
-                <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-            </td>
-        </tr>
-              <tr>
-              
-                  <td>
-                      <asp:Button ID="Button1" runat="server" Text="insert" OnClick="Button1_Click" />
-                       </td>  
-           
-        </tr>
-    </table>--%>
 </asp:Content>

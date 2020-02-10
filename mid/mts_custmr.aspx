@@ -3,42 +3,64 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <style>
-        .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-            /*font-size: 18px;
+        .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+             /*font-size: 18px;
             background: #649bff;
             color: #fff;
             border: none;
             transition: all .3s ease-in-out;
             border-top: 2px solid transparent;*/
         }
-
-        .nav-pills > li.active > a {
-            background: #0289d8 !important;
-            border: none !important;
+        .nav-pills>li.active>a{
+             background: #0289d8 !important; 
+             border: none !important; 
             transition: all .3s ease-in-out;
         }
 
-            .nav-pills > li.active > a:hover {
-                transition: all .2s ease-in-out;
-            }
-
-        .nav-pills > li > a {
-            font-size: 18px;
+        .row{
+            margin-bottom:30px;
+        }
+        .nav-pills>li.active>a:hover{
+            transition: all .2s ease-in-out;
+        }
+        .nav-pills>li>a{
+             font-size: 18px;
             background: #105e8c;
             letter-spacing: 1px;
             color: #fff;
             border: none !important;
+        
             transition: all .3s ease-in-out;
         }
+        .nav-pills>li>a:hover{
+            background: #0289d8;
+            color: #fff;
+             transition: all .3s ease-in-out;
+        }
+        th{
+            text-align:right;
+        }
+          #bill{
+             background-color:#d8effb;           
+            border-right:solid 1px black;
+            border-left:solid 1px black;
+            border-bottom:solid 1px black;
+            margin-bottom:20px;
+            width:230px;
+            height:150px;
+           
 
-            .nav-pills > li > a:hover {
-                background: #0289d8;
-                color: #fff;
-                transition: all .3s ease-in-out;
-            }
 
-
-
+        }
+         #bill1{
+             background-color:#d8effb;
+            border-right:solid 1px black;
+            border-left:solid 1px black;
+            border-bottom:solid 1px black;
+            margin-bottom:20px;
+            width:230px;
+            height:150px;
+              }
         /*.nav-pills>li>a{
              font-size: 18px;*/
     </style>
@@ -92,7 +114,7 @@
             <div class="col-lg-9" style="display: flex; justify-content: right">
                 <ul class="nav nav-pills" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-toggle="pill" href="#info">حركة البيانات</a>
+                        <a class="nav-link active" data-toggle="pill" href="#info">حركة العملاء</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="pill" href="#respppl">الأشخاص المسؤلين</a>
@@ -117,7 +139,6 @@
                     <asp:Button ID="Button1" runat="server" type="submit" Text="تعديل" OnClick="Button1_Click" class="btn btn-success" />
                     <asp:HyperLink ID="HyperLink1" runat="server" class="btn btn-primary" data-target="#loginModal" data-toggle="modal" href="#" Style="background-color: darkred;">حذف</asp:HyperLink>
 
-                    <%-- <asp:HyperLink ID="HyperLink1" runat="server" class="btn btn-primary" data-target="#loginModal" data-toggle="modal" href="#" style="background-color: darkred;">حذف</asp:HyperLink>--%>
 
                     <asp:Button ID="Button5" runat="server" Text="طباعة" OnClick="Button3_Click" class="btn btn-dark" />
                 </div>
@@ -318,6 +339,7 @@
                 </div>
 
             </div>
+            </div>
             <div id="respppl" class="container tab-pane fade">
                 <div class="row">
 
@@ -457,7 +479,7 @@
 
                     <div class="col-sm-8" id="note">
                         <asp:Label ID="Label33" runat="server" Text="ملاحظات"></asp:Label>
-                        <asp:TextBox ID="TextBox60" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox60" runat="server" Style="width:50%"></asp:TextBox>
                     </div>
 
                 </div>
@@ -574,10 +596,23 @@
                 </div>
                 <!--end table-->
 
-                            <div>
-                                <asp:GridView ID="GridView1" runat="server" CssClass="table table-striped" BackColor="White" Style="font-size: 12px; margin: 99px 438px; width: 660px; text-align: center; border-color: #5bc0de;"></asp:GridView>
-                            </div>
             </div>
-            .
+            .<div class="row">
+                   <div class="col-md-6" hidden>
+               
+            </div>
+            
+            </div>
+        <div class="row">
+                   <div class="col-md-6" hidden>
+               
+            </div>
+            <div class="col-md-6 col-md-offset-6">
+
+                    <asp:GridView ID="GridView1" runat="server" CssClass="table table-striped" BackColor="White" Style="font-size: 12px; width: 660px; text-align: center; border-color: #5bc0de;"></asp:GridView>
+
+                </div>
+            </div>
         </div>
+        
 </asp:Content>

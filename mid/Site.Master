@@ -245,7 +245,7 @@
                                 <!-- <span class="label label-primary pull-right">4</span> -->
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="activity_types.aspx"><i class="fa fa-circle-o"></i>فاتورة المبيعات</a></li>
+                                <li><a href="Sal_Inovic.aspx"><i class="fa fa-circle-o"></i>فاتورة المبيعات</a></li>
                                 <li><a href="branch.aspx"><i class="fa fa-circle-o"></i>مرتجع المبيعات </a></li>
                                 <li><a href="companies.aspx"><i class="fa fa-circle-o"></i>عرض الأسعار</a></li>
                                 <li><a href="astcompany.aspx"><i class="fa fa-circle-o"></i>طلبية العملاء</a></li>
@@ -361,11 +361,11 @@
                         </li>
 
                     <li class="treeview">
-                        <li> <a href="#settings">
+                        <li> <a href="basic_settings2.aspx">
                                 <i class="fa fa-tags mr-2 ml-2"></i><span>الإعدادات </span>            
                             </a>
-                            <ul class="treeview-menu">
-                                <li><a  href="#sales_settings" ><i class="fa fa-cogs"></i>إعدادات المبيعات</a>
+                            <%--<ul class="treeview-menu">
+                                <li><a  href="#sale_settings" ><i class="fa fa-cogs"></i>إعدادات المبيعات</a>
                                                   
                                      <ul class="treeview-menu">
                                         <li><a href="salesman.aspx"><i class="fa fa-dot-circle sidebar-arrow ml-2"></i><span>مندوبين المبيعات</span></a>
@@ -384,11 +384,11 @@
                                          <li><a href="reftype.aspx"><i class="fa fa-dot-circle sidebar-arrow ml-2"></i><span>المرجع الفرعى للسندات</span></a>
                                         </li>
                                         <li><a href="reftypmain.aspx"><i class="fa fa-dot-circle sidebar-arrow ml-2"></i><span>انواع المراجع للسندات</span></a> </li>                 
-                                 </ul>
+                                 </ul>--%>
                                   
 
                                   
-                                    <li> <a href="#Accounts_settings">
+<%--                                    <li> <a href="#Accounts_settings">
                                         <i class="fa fa-cogs"></i>اعدادات الحسابات </a>
                                     <ul class="treeview-menu">
                                  
@@ -403,13 +403,13 @@
                                         <li><a href="astbank.aspx"><i class="fa fa-dot-circle sidebar-arrow ml-2"></i><span>البيانات الاساسيه للبنوك</span></a>
                                         </li>
                                     </ul>
-                                </li>
+                                </li>--%>
                                 
                                 
-                                   <li> <a href="#asets_settings">
+                                   <%--<li> <a href="#asets_settings">
                                         <i class="fa fa-cogs"></i>إعدادات الإصول
-                                    </a>
-                                      <ul class="treeview-menu">
+                                    </a>--%>
+                                   <%--   <ul class="treeview-menu">
                                         <li><a href="asets_type.aspx"><i class="fa fa-dot-circle sidebar-arrow ml-2"></i><span>انواع الاصول الثابتة</span></a>
                                         </li>
                                         <li><a href="asets_loc.aspx"><i class="fa fa-dot-circle sidebar-arrow ml-2"></i><span>مواقع الاصول الثابتة</span></a>
@@ -417,11 +417,11 @@
                                         <li><a href="asets_status.aspx"><i class="fa fa-dot-circle sidebar-arrow ml-2"></i><span>حالة الاصول الثابتة</span></a>
                                         </li>
                                         <li><a href="depstat.aspx"><i class="fa fa-dot-circle sidebar-arrow ml-2"></i><span>طريقة الإهلاك</span></a>
-                                    </ul>
-                                </li>
-                      
+                                    </ul>--%>
+                               <%-- </li>
+                      --%>
                          
-                          <li><a  href="#emp_settings">
+<%--                          <li><a  href="#emp_settings">
                                 <i class="fa fa-cogs"></i> الإعدادات الموظفين
                             </a>
                             <ul class="treeview-menu">
@@ -436,7 +436,7 @@
                             </ul>
                             </li>
                           </ul>
-                       </ul>
+                       </ul>--%>
                <%-- <li class="treeview">
                             <a href="underConstruction.aspx">
                                 <i class="fa fa-tags mr-2 ml-2"></i><span>الأخبار</span>

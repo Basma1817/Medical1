@@ -2459,9 +2459,11 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="SalesInvoic.aspx" />
     <Content Include="salesman_delete.aspx" />
     <Content Include="salesman_show.aspx" />
     <Content Include="salesmanٌReport.aspx" />
+    <Content Include="Sal_Inovic.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap-confirm.js" />
@@ -2571,6 +2573,11 @@
     <Content Include="insert_mtsitem_unit.aspx" />
     <Content Include="basic_info.aspx" />
     <Content Include="basic_settings.aspx" />
+    <Content Include="basic_settings2.aspx" />
+    <Content Include="sale_settings.aspx" />
+    <Content Include="acc_settings.aspx" />
+    <Content Include="main_settings.aspx" />
+    <Content Include="emp_settings.aspx" />
     <Content Include="WF_Pur_Invoic.aspx" />
     <Content Include="wp-content\image\01.jpg" />
     <Content Include="wp-content\image\022e9691c5ba65d23cbf27a53f83163e.jpg" />
@@ -7523,6 +7530,13 @@
     <Compile Include="Roles.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="SalesInvoic.aspx.cs">
+      <DependentUpon>SalesInvoic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalesInvoic.aspx.designer.cs">
+      <DependentUpon>SalesInvoic.aspx</DependentUpon>
+    </Compile>
     <Compile Include="salesmanRep.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -7549,6 +7563,13 @@
     </Compile>
     <Compile Include="salesmanٌReport.aspx.designer.cs">
       <DependentUpon>salesmanٌReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sal_Inovic.aspx.cs">
+      <DependentUpon>Sal_Inovic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sal_Inovic.aspx.designer.cs">
+      <DependentUpon>Sal_Inovic.aspx</DependentUpon>
     </Compile>
     <Compile Include="Sec_Controls.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -8183,6 +8204,41 @@
     </Compile>
     <Compile Include="basic_settings.aspx.designer.cs">
       <DependentUpon>basic_settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="basic_settings2.aspx.cs">
+      <DependentUpon>basic_settings2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="basic_settings2.aspx.designer.cs">
+      <DependentUpon>basic_settings2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sale_settings.aspx.cs">
+      <DependentUpon>sale_settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sale_settings.aspx.designer.cs">
+      <DependentUpon>sale_settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="acc_settings.aspx.cs">
+      <DependentUpon>acc_settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="acc_settings.aspx.designer.cs">
+      <DependentUpon>acc_settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="main_settings.aspx.cs">
+      <DependentUpon>main_settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main_settings.aspx.designer.cs">
+      <DependentUpon>main_settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="emp_settings.aspx.cs">
+      <DependentUpon>emp_settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="emp_settings.aspx.designer.cs">
+      <DependentUpon>emp_settings.aspx</DependentUpon>
     </Compile>
     <Compile Include="WF_Pur_Invoic.aspx.cs">
       <DependentUpon>WF_Pur_Invoic.aspx</DependentUpon>

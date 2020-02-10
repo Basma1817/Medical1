@@ -15,12 +15,14 @@ namespace mid
         {
             if (!Page.IsPostBack)
             {
+                TextBox1.Enabled = false;
+                TextBox14.Enabled = false;
 
                 DropDownList4.DataValueField = "Cmp_No";
                 DropDownList4.DataTextField = "Cmp_Nm";
                 DropDownList4.DataSource = db.MainCmpnam.ToList();
                 DropDownList4.DataBind();
-                TextBox17.Text = DropDownList4.SelectedValue;
+                TextBox28.Text = DropDownList4.SelectedValue;
 
 
                 DropDownList5.DataValueField = "Brn_No";
@@ -36,22 +38,6 @@ namespace mid
           
             int no = int.Parse(DropDownList4.SelectedValue);
 
-            ////foreach (MtsCustmr cstm in db.MtsCustmr.Where(o => o.Cmp_No == no && o.Parent_Cstm == 0))
-            ////{
-            ////    TreeNode node = new TreeNode();
-            ////    node.Text = cstm.Cstm_NmAr.ToString();
-            ////    node.Value = cstm.Cstm_No.ToString();
-            ////    //you can affect the node.NavigateUrl
-
-            ////    node.PopulateOnDemand = true;
-            ////    TreeView1.Nodes.Add(node);
-            ////}
-            //////Session.Add("tree_node_path", " ");
-
-            //TreeView1.CollapseAll();
-
-
-            //to calculate new account number
 
             int id = int.Parse(ViewState["ID"].ToString());
             int count = db.MtsCustmr.Count(o => o.Cmp_No == no && o.Parent_Cstm == id);
@@ -344,7 +330,7 @@ namespace mid
         protected void DropDownList4_SelectedIndexChanged(object sender, EventArgs e)
         {
             int no = int.Parse(DropDownList4.SelectedValue);
-
+            TextBox28.Text = DropDownList4.SelectedValue;
             DropDownList4.DataValueField = "Cmp_No";
             DropDownList4.DataTextField = "Cmp_Nm";
             DropDownList4.DataSource = db.MtsCustmr.Where(o => o.Cmp_No == no).ToList();

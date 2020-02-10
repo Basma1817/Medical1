@@ -14,6 +14,7 @@ namespace mid
         {
             if (!IsPostBack)
             {
+                TextBox1.Enabled = false;
                 if (db.AstDprtmnt.Count() == 0)
                     TextBox1.Text = (1).ToString();
                 else

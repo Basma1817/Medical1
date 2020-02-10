@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Web.UI.WebControls;
+
 namespace mid {
     
     
@@ -767,7 +769,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox54;
-        
+
         /// <summary>
         /// GridView1 control.
         /// </summary>
@@ -775,6 +777,8 @@ namespace mid {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        //protected global::System.Web.UI.WebControls.GridView GridView1;
+        private global::System.Web.UI.WebControls.GridView gridView1;
+
+       
     }
 }
