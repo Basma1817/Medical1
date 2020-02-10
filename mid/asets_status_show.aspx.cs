@@ -14,12 +14,14 @@ namespace mid
         {
             if (!Page.IsPostBack)
             {
-
+                TextBox1.Enabled = false;
+                TextBox2.Enabled = false;
+                TextBox3.Enabled = false;
                 var id = int.Parse(Request.QueryString["no"]);
                 var cn = db.FixdAstStatus.Find(id);
                 TextBox1.Text = cn.AsetStat_No.ToString();
                 TextBox2.Text = cn.AsetStat_NmAr;
-
+                TextBox3.Text = cn.AsetStat_NmEn;
             }
 
         }

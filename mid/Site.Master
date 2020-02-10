@@ -217,12 +217,12 @@
                
                 <ul class="sidebar-menu">
                         <li class="treeview">
-                            <a href="#">
+                            <a href="basic_settings.aspx">
                                 <i class="fa fa-files-o"></i>
                                 <span>إعدادات لوحة التحكم</span>
                                 <!-- <span class="label label-primary pull-right">4</span> -->
                             </a>
-                            <ul class="treeview-menu" runat="server">
+                           <%-- <ul class="treeview-menu" runat="server">
                                 <li><a href="/companies.aspx"><i class="fa fa-circle-o"></i>لوحة تحكم الشركة</a></li>
                                 <li><a href="branch.aspx"><i class="fa fa-circle-o"></i>بيانات الفروع</a></li>
                                 <li><a href="mainbranchdiv.aspx"><i class="fa fa-circle-o"></i>مكان تسليم البضاعة</a></li>
@@ -235,7 +235,7 @@
                                 <li><a href="curncy.aspx"><i class="fa fa-circle-o"></i><span>العملات</span></a>
                                 </li>
 
-                            </ul>
+                            </ul>--%>
                         </li>
                         <%--  --%>
                         <li class="treeview">
@@ -261,7 +261,7 @@
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="purchasingInovice.aspx"><i class="fa fa-circle-o"></i>فاتورة المشتريات</a></li>
+                                <li><a href="Pur_Invoic.aspx"><i class="fa fa-circle-o"></i>فاتورة المشتريات</a></li>
                                 <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i>مرتجع المشتريات</a></li>
                                 <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i>أمر الشراء</a></li>
                                 <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i>تقارير المشتريات </a></li>

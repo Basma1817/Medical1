@@ -14,8 +14,9 @@ namespace mid
         {
             if (!Page.IsPostBack)
             {
-
                 TextBox1.Enabled = false;
+                TextBox2.Enabled = false;
+                TextBox3.Enabled = false;
                 var id = int.Parse(Request.QueryString["no"]);
                 var cn = db.HrAstErngtyp.Find(id);
                 TextBox1.Text = cn.Earning_No.ToString();

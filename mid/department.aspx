@@ -4,19 +4,46 @@
     
 
     <section class="content-header">
-       
-        <ol class="breadcrumb"  style="width: 1050px;"> 
-             <h1>  <small>اعدادات الموظفين > اقسام الشركه</small></h1>
-        </ol>
-
-         <div style="margin:0 0 2% 55%">
-        <asp:Label ID="Label2" runat="server" Text="اسم الشركة"></asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server">
-                <asp:ListItem>--اختر--</asp:ListItem>
-            </asp:DropDownList>
+        <div class="panel panel-default col-lg-12">
+            <div class="panel-body">
+                <h2 class="panel-title" style="font-size: 29px;">اقسام الشركة</h2>
+            </div>
         </div>
 
-        <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
+         <div class="row">
+            <div class="col-lg-5">
+            </div>
+            <div class="col-lg-1">
+                <div class="form-group" style="display: flex; justify-content: space-between">
+                    <asp:Label ID="Label17" runat="server" Text="الرقم"></asp:Label>
+                    <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" Style="display: flex;"></asp:TextBox>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group" style="display: flex; justify-content: space-between">
+                    <asp:Label ID="Label4" runat="server" Text="النشاط"></asp:Label>
+                    <asp:DropDownList ID="DropDownList2" runat="server" CssClass="form-control" AutoPostBack="true">
+                    </asp:DropDownList>
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <div class="form-group" style="display: flex; justify-content: space-between">
+                    <asp:Label ID="Label12" runat="server" Text="الرقم"></asp:Label>
+                    <asp:TextBox ID="TextBox3" runat="server" CssClass="form-control"></asp:TextBox>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="form-group" style="display: flex; justify-content: space-between">
+                    <asp:Label ID="Label5" runat="server" Text="الشركة"></asp:Label>
+                    <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-control"
+                        AutoPostBack="true" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                    </asp:DropDownList>
+                </div>
+            </div>
+        </div>
+
+
+       
             <div style="direction: rtl; padding: 10px 10px 10px 55px">
                 <asp:Label ID="Label1" runat="server" Text="اقسام الشركه"></asp:Label>
 
@@ -36,10 +63,7 @@
 
                 <asp:GridView CssClass="table table-striped" ID="GridView1" BackColor="White" Style="direction: ltr; font-size: 14px;" GridLines="None" runat="server" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging" OnSelectedIndexChanging="GridView1_SelectedIndexChanging" >
 
-       <%-- <Columns>
-            <asp:HyperLinkField DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="updatedele_depart.aspx?no={0}" HeaderText="تعديل و حذف" NavigateUrl="~/updatedele_depart.aspx" Text="تعديل و حذف" />
-        </Columns>--%>
-
+     
                      <Columns>
       <asp:HyperLinkField ControlStyle-BackColor="red" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم"
             DataNavigateUrlFormatString="department_delete.aspx?no={0}"
@@ -60,7 +84,7 @@
     </Columns>
     </asp:GridView>
     </div>
-    </div>
+  
     </section>
 
 </asp:Content>

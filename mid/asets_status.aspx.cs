@@ -16,7 +16,13 @@ namespace mid
             DropDownList1.DataTextField = "Cmp_Nm";
             DropDownList1.DataSource = db.MainCmpnam.ToList();
             DropDownList1.DataBind();
+            int no = int.Parse(DropDownList1.SelectedValue);
 
+            DropDownList2.DataTextField = "Name_Arb";
+            DropDownList2.DataValueField = "Actvty_No";
+            DropDownList2.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+            DropDownList2.DataBind();
+            ViewState["id"] = 0;
             var query = from p in db.FixdAstStatus
                         //where p.AsetStat_No == id
                         select new
@@ -107,6 +113,20 @@ namespace mid
             db.FixdAstStatus.Remove(cn);
             db.SaveChanges();
             Response.Redirect("asets_status.aspx");
+        }
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int no = int.Parse(DropDownList1.SelectedValue);
+
+            DropDownList1.DataTextField = "Cmp_Nm";
+            DropDownList1.DataValueField = "Cmp_No";
+            DropDownList1.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+            DropDownList1.DataBind();
+        }
+
+        protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

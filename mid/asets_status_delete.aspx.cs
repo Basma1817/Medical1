@@ -19,7 +19,7 @@ namespace mid
                 var cn = db.FixdAstStatus.Find(id);
                 TextBox1.Text = cn.AsetStat_No.ToString();
                 TextBox2.Text = cn.AsetStat_NmAr;
-
+                TextBox3.Text = cn.AsetStat_NmEn;
             }
         }
         protected void Button3_Click(object sender, EventArgs e)

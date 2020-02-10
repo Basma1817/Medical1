@@ -12,7 +12,6 @@ namespace min.Forms.Pur
     
     public partial class WF_Pur_Invoic : System.Web.UI.Page
     {
-        
         SqlConnection cn = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["ICDBTrdAEntities_A"].ConnectionString);
         protected void Page_Load(object sender, EventArgs e)
         {

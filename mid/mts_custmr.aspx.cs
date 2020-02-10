@@ -194,9 +194,9 @@ namespace mid
                 dataSet.Tables[0].Rows.Add(total);
 
 
-                GridView1.DataSource = dataSet.Tables[0];
+                //GridView1.DataSource = dataSet.Tables[0];
 
-                GridView1.DataBind();
+                //GridView1.DataBind();
             }
         }
         

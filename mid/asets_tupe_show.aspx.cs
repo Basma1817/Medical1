@@ -14,7 +14,10 @@ namespace mid
         {
             if (!Page.IsPostBack)
             {
-
+                TextBox1.Enabled = false;
+                TextBox2.Enabled = false;
+                TextBox3.Enabled = false;
+                TextBox4.Enabled = false;
 
                 var id = int.Parse(Request.QueryString["no"]);
                 var cn = db.FixdAsetstype.Find(id);

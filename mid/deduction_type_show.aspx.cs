@@ -15,12 +15,15 @@ namespace mid
             if (!Page.IsPostBack)
             {
 
+                TextBox1.Enabled = false;
+                TextBox2.Enabled = false;
+                TextBox3.Enabled = false;
 
                 var id = int.Parse(Request.QueryString["no"]);
                 var cn = db.HrAstdeductntyp.Find(id);
                 TextBox1.Text = cn.Deduc_No.ToString();
                 TextBox2.Text = cn.Deduc_NmAr;
-
+                TextBox3.Text = cn.Deduc_NmEn;
 
             }
         }
