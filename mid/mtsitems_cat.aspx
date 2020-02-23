@@ -2,7 +2,24 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-     
+     <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="basic_info.aspx"><i class="fa fa-dashboard"></i>البيانات الاساسية </a>
+                    <small><small>
+                        <asp:Label ID="Label11" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>الرئيسية </a></li>
+                    <li><a href="basic_info.aspx">البيانات الاساسية</a></li>
+                    
+                  <li><a href="mtsitems_cat.aspx">بيانات الاصناف</a></li>
+                </ol>
+            </section>
+        </div>
+    </div>
+
    <%-- <div class="container-fluid">
         <div class="row">--%>
 

@@ -1,7 +1,23 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="branch.aspx.cs" Inherits="mid.branch" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
+    <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="basic_settings.aspx"><i class="fa fa-dashboard"></i>اعدادات لوحة التحكم </a>
+                    <small><small>
+                        <asp:Label ID="Label2" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                    <li><a href="basic_settings.aspx">اعدادات لوحة التحكم</a></li>
+                      <li><a href="branch.aspx">بيانات الفروع</a></li>
+                 
+                </ol>
+            </section>
+        </div>
+    </div>
     <section class="content-header">
          <div class="panel panel-default col-lg-12">
          <div class="panel-body">

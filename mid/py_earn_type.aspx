@@ -1,6 +1,23 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="py_earn_type.aspx.cs" Inherits="mid.py_earn_type" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="emp_settings.aspx"><i class="fa fa-dashboard"></i>اعدادات الموظفين </a>
+                    <small><small>
+                        <asp:Label ID="Label2" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                   <li><a href="basic_settings2.aspx">الاعدادات</a></li>
+                    <li ><a href="emp_settings.aspx">اعدادات الموظفين</a></li>
+                     <li ><a href="py_earn_type.aspx.aspx">انواع الاستحقاقات</a></li>
+                </ol>
+            </section>
+        </div>
+    </div>
          <section class="content-header">
          <div class="panel panel-default col-lg-12">
          <div class="panel-body">

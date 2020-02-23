@@ -15,35 +15,35 @@ namespace mid
             //Label1.Text = "";
             if (!Page.IsPostBack)
             {
-                DropDownList1.DataTextField = "Cmp_Nm";
-                DropDownList1.DataValueField = "Cmp_No";
-                DropDownList1.DataSource = db.MainCmpnam.ToList();
-                DropDownList1.DataBind();
+                
 
-                int no = int.Parse(DropDownList1.SelectedValue);
-
-                DropDownList2.DataTextField = "Name_Arb";
-                DropDownList2.DataValueField = "Actvty_No";
-                DropDownList2.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
-                DropDownList2.DataBind();
-               
-                TextBox1.Enabled = false;
+                TextBox3.Enabled = false;
                 if (db.MtsItmunit.Count() == 0)
-                    TextBox1.Text = (1).ToString();
+                    TextBox3.Text = (1).ToString();
                 else
 
-                    TextBox1.Text = (db.MtsItmunit.Max(o => o.Unit_No) + 1).ToString();
+                    TextBox3.Text = (db.MtsItmunit.Max(o => o.Unit_No) + 1).ToString();
             }
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
+           MtsItmunit cn = new MtsItmunit();
+          
 
+            cn.Unit_No = short.Parse(TextBox3.Text);
+            cn.Unit_NmAr = TextBox4.Text;
+            cn.Unit_NmEn = TextBox5.Text;
+
+            db.MtsItmunit.Add(cn);
+            db.SaveChanges(); 
+            Response.Redirect("mtsitem_unit.aspx");
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
             Response.Redirect("mtsitem_unit.aspx");
         }
+
 
     }
 }

@@ -22,12 +22,13 @@
         </style>
 
     </head>
-    <body>
+    <tbody>
 
-        <div>
-            <ol class="breadcrumb" style="width: 100%;">
-                <h1><small>المشتريات < إضافة فاتورة الشراء</small></h1>
-            </ol>
+       <div class="panel panel-default col-lg-12">
+         <div class="panel-body">
+            <h2 class="panel-title" style="font-size: 29px;"> اضافة فواتير الشراء</h2>
+        </div>
+        </div>
             <div>
                 <table class="table" id="data">
                     <tr>
@@ -111,7 +112,7 @@
                     </tr>
                 </table>
             </div>
-        </div>
+       
 
 
         <div style="top: 0; bottom: 0; left: 0; right: 0; margin: auto 12px; overflow: scroll; width: 1100px; height: 220px">
@@ -385,7 +386,7 @@
             </div>
         </div>
 
-    </body>
+    </tbody>
 
     <script type="text/javascript">
         var control = document.getElementById("txtSanad");

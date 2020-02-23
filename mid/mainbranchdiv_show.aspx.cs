@@ -15,6 +15,8 @@ namespace mid
             if (!Page.IsPostBack)
             {
                 TextBox1.Enabled = false;
+                TextBox2.Enabled = false;
+                TextBox3.Enabled = false;
                 var id = int.Parse(Request.QueryString["no"]);
                 var cn = db.MainBranchDlv.Find(id);
                 TextBox1.Text = cn.Dlv_Stor.ToString();

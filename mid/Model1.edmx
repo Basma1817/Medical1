@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="ICDBTrdAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="ICDBTrdAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="ActivityTypes">
           <Key>
             <PropertyRef Name="Actvty_No" />
@@ -1017,6 +1017,7 @@ warning 6002: The table/view 'ICDBTrdA.dbo.FixdDepDtl' does not have a primary k
           <Property Name="Taxv_ExtraTot" Type="money" />
           <Property Name="Tax_Allow" Type="smallint" />
           <Property Name="Tax_Acc" Type="bigint" />
+          <Property Name="Brn_NO" Type="bigint" />
         </EntityType>
         <EntityType Name="InvPoDtl">
           <Key>
@@ -3180,14 +3181,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.Adj' does not have a primary key defi
           <Property Name="CostDif" Type="money" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6013: The table/view 'ICDBTrdA.dbo.Agrement' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="Agrement">
-          <Property Name="Ref_No" Type="nvarchar" MaxLength="15" />
-          <Property Name="Itm_Nmar" Type="nvarchar" MaxLength="150" />
-          <Property Name="Unit_Sal1" Type="money" />
-          <Property Name="Itm_Sal1" Type="money" />
-        </EntityType>-->
-        <!--Errors Found During Generation:
 warning 6002: The table/view 'ICDBTrdA.dbo.AllItemInGroup' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="AllItemInGroup">
           <Key>
@@ -3303,18 +3296,6 @@ warning 6002: The table/view 'ICDBTrdA.dbo.Stsqry32' does not have a primary key
           <Property Name="Doc_Dt" Type="nvarchar" MaxLength="10" />
           <Property Name="Doc_Dt1" Type="nvarchar" MaxLength="8" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'ICDBTrdA.dbo.test1' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="test1">
-          <Property Name="Prj_No" Type="smallint" />
-          <Property Name="Prj_Nm" Type="nvarchar" MaxLength="50" />
-          <Property Name="Cstm_Nm" Type="nvarchar" MaxLength="40" />
-          <Property Name="Cnt_VL" Type="money" />
-          <Property Name="Cnt_Bdgt" Type="money" />
-          <Property Name="Actul_Cost" Type="money" />
-          <Property Name="CompL_Priod" Type="nvarchar" MaxLength="20" />
-          <Property Name="Comisn_Dt" Type="nvarchar" MaxLength="15" />
-        </EntityType>-->
         <!--Errors Found During Generation:
 warning 6002: The table/view 'ICDBTrdA.dbo.Uniterror' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Uniterror">
@@ -3850,6 +3831,8 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Parameter Name="Doc_No" Type="bigint" Mode="In" />
         </Function>
         <Function Name="InvLoddtl_Gett_by_Ln_No" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Cmp_No" Type="smallint" Mode="In" />
+          <Parameter Name="Actvty_No" Type="smallint" Mode="In" />
           <Parameter Name="Doc_Ty" Type="smallint" Mode="In" />
           <Parameter Name="Doc_No" Type="bigint" Mode="In" />
           <Parameter Name="Ln_No" Type="smallint" Mode="In" />
@@ -3867,11 +3850,20 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Parameter Name="Sup_No" Type="bigint" Mode="In" />
           <Parameter Name="Itm_No" Type="bigint" Mode="In" />
           <Parameter Name="Unit_No" Type="smallint" Mode="In" />
+          <Parameter Name="Loc_No" Type="smallint" Mode="In" />
           <Parameter Name="Qty" Type="money" Mode="In" />
           <Parameter Name="Itm_Pur" Type="money" Mode="In" />
           <Parameter Name="Titm_Pur" Type="money" Mode="In" />
+          <Parameter Name="Exp_Date" Type="nvarchar" Mode="In" />
+          <Parameter Name="Batch_No" Type="nvarchar" Mode="In" />
           <Parameter Name="Disc1_Prct" Type="money" Mode="In" />
-          <Parameter Name="Disc2_Prct" Type="money" Mode="In" />
+          <Parameter Name="Disc1_Val" Type="money" Mode="In" />
+          <Parameter Name="Itm_SalSubUnt" Type="money" Mode="In" />
+          <Parameter Name="FcTitm_Sal" Type="money" Mode="In" />
+          <Parameter Name="FcItm_Pur" Type="money" Mode="In" />
+          <Parameter Name="FcTitm_Cost" Type="money" Mode="In" />
+          <Parameter Name="Taxp_Extra" Type="smallmoney" Mode="In" />
+          <Parameter Name="Taxv_Extra" Type="money" Mode="In" />
         </Function>
         <Function Name="InvLoddtl_Max_New_Ln_No" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Doc_Ty" Type="smallint" Mode="In" />
@@ -3879,15 +3871,31 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
         </Function>
         <Function Name="InvLoddtl_Update_Pur" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="Doc_No" Type="bigint" Mode="In" />
+          <Parameter Name="Cmp_No" Type="smallint" Mode="In" />
+          <Parameter Name="Actvty_No" Type="smallint" Mode="In" />
+          <Parameter Name="StoreID" Type="smallint" Mode="In" />
           <Parameter Name="Doc_Ty" Type="smallint" Mode="In" />
           <Parameter Name="Ln_No" Type="smallint" Mode="In" />
+          <Parameter Name="Doc_Dt" Type="datetime" Mode="In" />
+          <Parameter Name="Doc_DtAr" Type="nvarchar" Mode="In" />
+          <Parameter Name="To_Store" Type="smallint" Mode="In" />
+          <Parameter Name="Sup_No" Type="bigint" Mode="In" />
           <Parameter Name="Itm_No" Type="bigint" Mode="In" />
           <Parameter Name="Unit_No" Type="smallint" Mode="In" />
+          <Parameter Name="Loc_No" Type="smallint" Mode="In" />
           <Parameter Name="Qty" Type="money" Mode="In" />
           <Parameter Name="Itm_Pur" Type="money" Mode="In" />
           <Parameter Name="Titm_Pur" Type="money" Mode="In" />
+          <Parameter Name="Exp_Date" Type="nvarchar" Mode="In" />
+          <Parameter Name="Batch_No" Type="nvarchar" Mode="In" />
           <Parameter Name="Disc1_Prct" Type="money" Mode="In" />
-          <Parameter Name="Disc2_Prct" Type="money" Mode="In" />
+          <Parameter Name="Disc1_Val" Type="money" Mode="In" />
+          <Parameter Name="Itm_SalSubUnt" Type="money" Mode="In" />
+          <Parameter Name="FcTitm_Sal" Type="money" Mode="In" />
+          <Parameter Name="FcItm_Pur" Type="money" Mode="In" />
+          <Parameter Name="FcTitm_Cost" Type="money" Mode="In" />
+          <Parameter Name="Taxp_Extra" Type="smallmoney" Mode="In" />
+          <Parameter Name="Taxv_Extra" Type="money" Mode="In" />
         </Function>
         <Function Name="InvLodhdr_Count_ID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="InvLodhdr_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
@@ -4822,8 +4830,7 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             <End Role="Users" EntitySet="Users" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="ICDBTrdAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -5814,6 +5821,7 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <Property Name="Taxv_ExtraTot" Type="Decimal" Precision="19" Scale="4" />
           <Property Name="Tax_Allow" Type="Int16" />
           <Property Name="Tax_Acc" Type="Int64" />
+          <Property Name="Brn_NO" Type="Int64" />
         </EntityType>
         <EntityType Name="InvPoDtl">
           <Key>
@@ -8712,9 +8720,11 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             <Parameter Name="Doc_No" Mode="In" Type="Int64" />
           </FunctionImport>
           <FunctionImport Name="InvLoddtl_Get_By_Doc_No" ReturnType="Collection(ICDBTrdAModel.InvLoddtl_Get_By_Doc_No_Result)">
-            <Parameter Name="Doc_No" Mode="In" Type="Int64" />
+          <Parameter Name="Doc_No" Mode="In" Type="Int64" />
           </FunctionImport>
           <FunctionImport Name="InvLoddtl_Gett_by_Ln_No" ReturnType="Collection(ICDBTrdAModel.InvLoddtl_Gett_by_Ln_No_Result)">
+            <Parameter Name="Cmp_No" Mode="In" Type="Int16" />
+            <Parameter Name="Actvty_No" Mode="In" Type="Int16" />
             <Parameter Name="Doc_Ty" Mode="In" Type="Int16" />
             <Parameter Name="Doc_No" Mode="In" Type="Int64" />
             <Parameter Name="Ln_No" Mode="In" Type="Int16" />
@@ -8732,11 +8742,20 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             <Parameter Name="Sup_No" Mode="In" Type="Int64" />
             <Parameter Name="Itm_No" Mode="In" Type="Int64" />
             <Parameter Name="Unit_No" Mode="In" Type="Int16" />
+            <Parameter Name="Loc_No" Mode="In" Type="Int16" />
             <Parameter Name="Qty" Mode="In" Type="Decimal" />
             <Parameter Name="Itm_Pur" Mode="In" Type="Decimal" />
             <Parameter Name="Titm_Pur" Mode="In" Type="Decimal" />
+            <Parameter Name="Exp_Date" Mode="In" Type="String" />
+            <Parameter Name="Batch_No" Mode="In" Type="String" />
             <Parameter Name="Disc1_Prct" Mode="In" Type="Decimal" />
-            <Parameter Name="Disc2_Prct" Mode="In" Type="Decimal" />
+            <Parameter Name="Disc1_Val" Mode="In" Type="Decimal" />
+            <Parameter Name="Itm_SalSubUnt" Mode="In" Type="Decimal" />
+            <Parameter Name="FcTitm_Sal" Mode="In" Type="Decimal" />
+            <Parameter Name="FcItm_Pur" Mode="In" Type="Decimal" />
+            <Parameter Name="FcTitm_Cost" Mode="In" Type="Decimal" />
+            <Parameter Name="Taxp_Extra" Mode="In" Type="Decimal" />
+            <Parameter Name="Taxv_Extra" Mode="In" Type="Decimal" />
           </FunctionImport>
           <FunctionImport Name="InvLoddtl_Max_New_Ln_No" ReturnType="Collection(Int32)">
             <Parameter Name="Doc_Ty" Mode="In" Type="Int16" />
@@ -8744,19 +8763,35 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           </FunctionImport>
           <FunctionImport Name="InvLoddtl_Update_Pur">
             <Parameter Name="Doc_No" Mode="In" Type="Int64" />
+            <Parameter Name="Cmp_No" Mode="In" Type="Int16" />
+            <Parameter Name="Actvty_No" Mode="In" Type="Int16" />
+            <Parameter Name="StoreID" Mode="In" Type="Int16" />
             <Parameter Name="Doc_Ty" Mode="In" Type="Int16" />
             <Parameter Name="Ln_No" Mode="In" Type="Int16" />
+            <Parameter Name="Doc_Dt" Mode="In" Type="DateTime" />
+            <Parameter Name="Doc_DtAr" Mode="In" Type="String" />
+            <Parameter Name="To_Store" Mode="In" Type="Int16" />
+            <Parameter Name="Sup_No" Mode="In" Type="Int64" />
             <Parameter Name="Itm_No" Mode="In" Type="Int64" />
             <Parameter Name="Unit_No" Mode="In" Type="Int16" />
+            <Parameter Name="Loc_No" Mode="In" Type="Int16" />
             <Parameter Name="Qty" Mode="In" Type="Decimal" />
             <Parameter Name="Itm_Pur" Mode="In" Type="Decimal" />
             <Parameter Name="Titm_Pur" Mode="In" Type="Decimal" />
+            <Parameter Name="Exp_Date" Mode="In" Type="String" />
+            <Parameter Name="Batch_No" Mode="In" Type="String" />
             <Parameter Name="Disc1_Prct" Mode="In" Type="Decimal" />
-            <Parameter Name="Disc2_Prct" Mode="In" Type="Decimal" />
+            <Parameter Name="Disc1_Val" Mode="In" Type="Decimal" />
+            <Parameter Name="Itm_SalSubUnt" Mode="In" Type="Decimal" />
+            <Parameter Name="FcTitm_Sal" Mode="In" Type="Decimal" />
+            <Parameter Name="FcItm_Pur" Mode="In" Type="Decimal" />
+            <Parameter Name="FcTitm_Cost" Mode="In" Type="Decimal" />
+            <Parameter Name="Taxp_Extra" Mode="In" Type="Decimal" />
+            <Parameter Name="Taxv_Extra" Mode="In" Type="Decimal" />
           </FunctionImport>
           <FunctionImport Name="InvLodhdr_Count_ID" ReturnType="Collection(Int32)" />
           <FunctionImport Name="InvLodhdr_Insert">
-            <Parameter Name="Doc_No" Mode="In" Type="Int64" />
+          <Parameter Name="Doc_No" Mode="In" Type="Int64" />
           </FunctionImport>
           <FunctionImport Name="InvLodhdr_Max_ID" ReturnType="Collection(Int64)" />
           <FunctionImport Name="InvLodhdr_Update">
@@ -8781,10 +8816,10 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
             <Parameter Name="password" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="MtsItmunit_Gett_By_Itm_No" ReturnType="Collection(ICDBTrdAModel.MtsItmunit_Gett_By_Itm_No_Result)">
-            <Parameter Name="Itm_No" Mode="In" Type="Int64" />
+          <Parameter Name="Itm_No" Mode="In" Type="Int64" />
           </FunctionImport>
           <FunctionImport Name="MtsSuplir_get_Credit_Days" ReturnType="Collection(Int32)">
-            <Parameter Name="Sup_No" Mode="In" Type="Int64" />
+          <Parameter Name="Sup_No" Mode="In" Type="Int64" />
           </FunctionImport>
           <FunctionImport Name="register">
             <Parameter Name="user_name" Mode="In" Type="String" />
@@ -9893,6 +9928,7 @@ warning 6002: The table/view 'ICDBTrdA.dbo.viwStkitm' does not have a primary ke
           <EntitySetMapping Name="InvLodhdr">
             <EntityTypeMapping TypeName="ICDBTrdAModel.InvLodhdr">
               <MappingFragment StoreEntitySet="InvLodhdr">
+                <ScalarProperty Name="Brn_NO" ColumnName="Brn_NO" />
                 <ScalarProperty Name="Cmp_No" ColumnName="Cmp_No" />
                 <ScalarProperty Name="Actvty_No" ColumnName="Actvty_No" />
                 <ScalarProperty Name="StoreID" ColumnName="StoreID" />

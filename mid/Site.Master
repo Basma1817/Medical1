@@ -239,33 +239,33 @@
                         </li>
                         <%--  --%>
                         <li class="treeview">
-                            <a href="#sales">
+                            <a href="basic_sales.aspx">
                                 <i class="fa fa-th"></i>
                                 <span>المبيعات</span>
                                 <!-- <span class="label label-primary pull-right">4</span> -->
                             </a>
-                            <ul class="treeview-menu">
+                           <%-- <ul class="treeview-menu">
                                 <li><a href="Sal_Inovic.aspx"><i class="fa fa-circle-o"></i>فاتورة المبيعات</a></li>
                                 <li><a href="branch.aspx"><i class="fa fa-circle-o"></i>مرتجع المبيعات </a></li>
                                 <li><a href="companies.aspx"><i class="fa fa-circle-o"></i>عرض الأسعار</a></li>
                                 <li><a href="astcompany.aspx"><i class="fa fa-circle-o"></i>طلبية العملاء</a></li>
                                 <li><a href="mainbranchdiv.aspx"><i class="fa fa-circle-o"></i>طلبية الفرع </a></li>
                                 <li><a href="astcompany.aspx"><i class="fa fa-circle-o"></i>تقارير المبيعات </a></li>
-                            </ul>
+                            </ul>--%>
                         </li>
                         <%--  --%>
                         <li class="treeview">
-                            <a href="#purchasing">
+                            <a href="basic_purshasing.aspx">
                                 <i class="fa fa-pie-chart"></i>
                                 <span>المشتريات</span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
-                            <ul class="treeview-menu">
+                           <%-- <ul class="treeview-menu">
                                 <li><a href="Pur_Invoic.aspx"><i class="fa fa-circle-o"></i>فاتورة المشتريات</a></li>
                                 <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i>مرتجع المشتريات</a></li>
                                 <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i>أمر الشراء</a></li>
                                 <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i>تقارير المشتريات </a></li>
-                            </ul>
+                            </ul>--%>
                         </li>
                         <li class="treeview">
                             <a href="#inventory">
@@ -312,11 +312,11 @@
                                 <i class="fa fa-table"></i><span>الصندوق والبنوك</span>
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
-                            <ul class="treeview-menu">
+                          <%--  <ul class="treeview-menu">
                                 <li><a href="activity_types.aspx"><i class="fa fa-circle-o"></i>سندات القبض</a></li>
                                 <li><a href="branch.aspx"><i class="fa fa-circle-o"></i>سندات الصرف</a></li>
                                 <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i>الإشعارات</a></li>
-                            </ul>
+                            </ul>--%>
                         </li>
                         <li class="treeview">
                             <a href="#registerDailyConstraints">

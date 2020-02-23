@@ -1,17 +1,38 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="invastcity.aspx.cs" Inherits="mid.invastcity" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <section class="content-header">
-        <ol class="breadcrumb"  style="width: 1050px;"> 
-             <h1>  <small>اعدادات المبيعات > المدن الرئيسيه</small></h1>
-        </ol>
+
+ <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="sale_settings.aspx"><i class="fa fa-dashboard"></i>اعدادات المبيعات </a>
+                    <small><small>
+                        <asp:Label ID="Label3" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                    <li><a href="basic_settings2.aspx">الاعدادات</a></li>
+                    <li ><a href="sale_settings.aspx">اعدادات المبيعات</a></li>
+                     <li ><a href="invastcity.aspx">المدن الرئيسية</a></li>
+                </ol>
+            </section>
+        </div>
+    </div>
+
+    
+    <div class="panel panel-default col-lg-12">
+         <div class="panel-body">
+            <h2 class="panel-title" style="font-size: 29px;">المدن الرئيسية </h2>
+        </div>
+        </div>
+
         <div style="margin:0 0 2% 55%">
         <asp:Label ID="Label2" runat="server" Text="اسم الشركة"></asp:Label>
             <asp:DropDownList ID="DropDownList1" runat="server">
                 <asp:ListItem>--اختر--</asp:ListItem>
             </asp:DropDownList>
         </div>
-        <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
+      
               <div style="direction: rtl; padding: 10px 10px 10px 55px">
             <asp:Label ID="Label1" runat="server" Text="المدن الرئيسية"></asp:Label>
                 

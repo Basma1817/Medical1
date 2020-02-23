@@ -1,6 +1,23 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="mts_emp_cntrct.aspx.cs" Inherits="mid.mts_emp_cntrct" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="basic_info.aspx"><i class="fa fa-dashboard"></i>البيانات الاساسية </a>
+                    <small><small>
+                        <asp:Label ID="Label15" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                    <li><a href="basic_info.aspx">البيانات الاساسية</a></li>
+                  <li><a href="mts_emp_cntrct.aspx">البيانات الاساسية للموظفين</a></li>
+                </ol>
+            </section>
+        </div>
+    </div>
+
     <section class="content-header">
         <div class="panel panel-default col-lg-12">
         <div class="panel-body">
@@ -22,7 +39,7 @@
         <div  class="col-md-2">
             <div class="form-group">
                 <asp:Label ID="Label3" runat="server" Text="النشاط"></asp:Label>
-                <asp:DropDownList ID="DropDownList2" runat="server" CssClass="form-control" AutoPostBack="true">
+                <asp:DropDownList ID="DropDownList2" runat="server" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
                 </asp:DropDownList>
             </div>
         </div>

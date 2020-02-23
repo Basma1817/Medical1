@@ -7,13 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System.Web.UI.WebControls;
-
 namespace mid {
-    
-    
+
+
     public partial class mts_custmr {
-        
+
+        /// <summary>
+        /// Label3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
+
         /// <summary>
         /// Label17 control.
         /// </summary>
@@ -22,7 +29,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label17;
-        
+
         /// <summary>
         /// TextBox55 control.
         /// </summary>
@@ -31,7 +38,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox55;
-        
+
         /// <summary>
         /// Label1 control.
         /// </summary>
@@ -40,7 +47,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-        
+
         /// <summary>
         /// DropDownList5 control.
         /// </summary>
@@ -49,7 +56,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList5;
-        
+
         /// <summary>
         /// Label12 control.
         /// </summary>
@@ -58,7 +65,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label12;
-        
+
         /// <summary>
         /// TextBox26 control.
         /// </summary>
@@ -67,7 +74,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox26;
-        
+
         /// <summary>
         /// Label2 control.
         /// </summary>
@@ -76,7 +83,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
-        
+
         /// <summary>
         /// DropDownList4 control.
         /// </summary>
@@ -85,7 +92,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList4;
-        
+
         /// <summary>
         /// Button2 control.
         /// </summary>
@@ -94,7 +101,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button2;
-        
+
         /// <summary>
         /// Button1 control.
         /// </summary>
@@ -103,7 +110,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
+
         /// <summary>
         /// HyperLink1 control.
         /// </summary>
@@ -112,7 +119,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
-        
+
         /// <summary>
         /// Button5 control.
         /// </summary>
@@ -121,7 +128,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button5;
-        
+
         /// <summary>
         /// Label4 control.
         /// </summary>
@@ -130,7 +137,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label4;
-        
+
         /// <summary>
         /// RadioButtonList1 control.
         /// </summary>
@@ -139,7 +146,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
-        
+
         /// <summary>
         /// Label6 control.
         /// </summary>
@@ -148,7 +155,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label6;
-        
+
         /// <summary>
         /// TextBox14 control.
         /// </summary>
@@ -157,7 +164,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox14;
-        
+
         /// <summary>
         /// Label7 control.
         /// </summary>
@@ -166,7 +173,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label7;
-        
+
         /// <summary>
         /// TextBox1 control.
         /// </summary>
@@ -175,7 +182,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
-        
+
         /// <summary>
         /// Label8 control.
         /// </summary>
@@ -184,7 +191,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label8;
-        
+
         /// <summary>
         /// DropDownList3 control.
         /// </summary>
@@ -193,7 +200,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
-        
+
         /// <summary>
         /// Label10 control.
         /// </summary>
@@ -202,7 +209,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label10;
-        
+
         /// <summary>
         /// TextBox15 control.
         /// </summary>
@@ -211,7 +218,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox15;
-        
+
         /// <summary>
         /// Label13 control.
         /// </summary>
@@ -220,7 +227,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label13;
-        
+
         /// <summary>
         /// DropDownList2 control.
         /// </summary>
@@ -229,7 +236,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
-        
+
         /// <summary>
         /// Label14 control.
         /// </summary>
@@ -238,7 +245,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label14;
-        
+
         /// <summary>
         /// TextBox2 control.
         /// </summary>
@@ -247,7 +254,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
-        
+
         /// <summary>
         /// Label15 control.
         /// </summary>
@@ -256,7 +263,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label15;
-        
+
         /// <summary>
         /// DropDownList1 control.
         /// </summary>
@@ -265,7 +272,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
-        
+
         /// <summary>
         /// Label16 control.
         /// </summary>
@@ -274,7 +281,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label16;
-        
+
         /// <summary>
         /// TextBox6 control.
         /// </summary>
@@ -283,7 +290,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox6;
-        
+
         /// <summary>
         /// Label19 control.
         /// </summary>
@@ -292,7 +299,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label19;
-        
+
         /// <summary>
         /// TextBox7 control.
         /// </summary>
@@ -301,7 +308,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox7;
-        
+
         /// <summary>
         /// Label20 control.
         /// </summary>
@@ -310,7 +317,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label20;
-        
+
         /// <summary>
         /// TextBox9 control.
         /// </summary>
@@ -319,7 +326,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox9;
-        
+
         /// <summary>
         /// Label21 control.
         /// </summary>
@@ -328,7 +335,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label21;
-        
+
         /// <summary>
         /// TextBox8 control.
         /// </summary>
@@ -337,7 +344,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox8;
-        
+
         /// <summary>
         /// Label22 control.
         /// </summary>
@@ -346,7 +353,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label22;
-        
+
         /// <summary>
         /// TextBox27 control.
         /// </summary>
@@ -355,7 +362,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox27;
-        
+
         /// <summary>
         /// Label25 control.
         /// </summary>
@@ -364,7 +371,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label25;
-        
+
         /// <summary>
         /// TextBox13 control.
         /// </summary>
@@ -373,7 +380,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox13;
-        
+
         /// <summary>
         /// Label26 control.
         /// </summary>
@@ -382,7 +389,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label26;
-        
+
         /// <summary>
         /// TextBox10 control.
         /// </summary>
@@ -391,7 +398,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox10;
-        
+
         /// <summary>
         /// Label28 control.
         /// </summary>
@@ -400,7 +407,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label28;
-        
+
         /// <summary>
         /// TextBox12 control.
         /// </summary>
@@ -409,7 +416,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox12;
-        
+
         /// <summary>
         /// Label29 control.
         /// </summary>
@@ -418,7 +425,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label29;
-        
+
         /// <summary>
         /// TextBox5 control.
         /// </summary>
@@ -427,7 +434,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox5;
-        
+
         /// <summary>
         /// Label30 control.
         /// </summary>
@@ -436,7 +443,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label30;
-        
+
         /// <summary>
         /// TextBox11 control.
         /// </summary>
@@ -445,7 +452,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox11;
-        
+
         /// <summary>
         /// Label31 control.
         /// </summary>
@@ -454,7 +461,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label31;
-        
+
         /// <summary>
         /// TextBox16 control.
         /// </summary>
@@ -463,7 +470,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox16;
-        
+
         /// <summary>
         /// TreeView1 control.
         /// </summary>
@@ -472,7 +479,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TreeView TreeView1;
-        
+
         /// <summary>
         /// TextBox22 control.
         /// </summary>
@@ -481,7 +488,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox22;
-        
+
         /// <summary>
         /// TextBox23 control.
         /// </summary>
@@ -490,7 +497,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox23;
-        
+
         /// <summary>
         /// TextBox24 control.
         /// </summary>
@@ -499,7 +506,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox24;
-        
+
         /// <summary>
         /// TextBox25 control.
         /// </summary>
@@ -508,7 +515,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox25;
-        
+
         /// <summary>
         /// TextBox30 control.
         /// </summary>
@@ -517,7 +524,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox30;
-        
+
         /// <summary>
         /// TextBox37 control.
         /// </summary>
@@ -526,7 +533,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox37;
-        
+
         /// <summary>
         /// TextBox41 control.
         /// </summary>
@@ -535,7 +542,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox41;
-        
+
         /// <summary>
         /// TextBox45 control.
         /// </summary>
@@ -544,7 +551,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox45;
-        
+
         /// <summary>
         /// TextBox31 control.
         /// </summary>
@@ -553,7 +560,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox31;
-        
+
         /// <summary>
         /// TextBox38 control.
         /// </summary>
@@ -562,7 +569,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox38;
-        
+
         /// <summary>
         /// TextBox42 control.
         /// </summary>
@@ -571,7 +578,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox42;
-        
+
         /// <summary>
         /// TextBox46 control.
         /// </summary>
@@ -580,7 +587,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox46;
-        
+
         /// <summary>
         /// TextBox35 control.
         /// </summary>
@@ -589,7 +596,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox35;
-        
+
         /// <summary>
         /// TextBox39 control.
         /// </summary>
@@ -598,7 +605,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox39;
-        
+
         /// <summary>
         /// TextBox43 control.
         /// </summary>
@@ -607,7 +614,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox43;
-        
+
         /// <summary>
         /// TextBox47 control.
         /// </summary>
@@ -616,7 +623,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox47;
-        
+
         /// <summary>
         /// TextBox36 control.
         /// </summary>
@@ -625,7 +632,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox36;
-        
+
         /// <summary>
         /// TextBox40 control.
         /// </summary>
@@ -634,7 +641,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox40;
-        
+
         /// <summary>
         /// TextBox44 control.
         /// </summary>
@@ -643,7 +650,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox44;
-        
+
         /// <summary>
         /// TextBox48 control.
         /// </summary>
@@ -652,7 +659,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox48;
-        
+
         /// <summary>
         /// Label33 control.
         /// </summary>
@@ -661,7 +668,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label33;
-        
+
         /// <summary>
         /// TextBox60 control.
         /// </summary>
@@ -670,7 +677,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox60;
-        
+
         /// <summary>
         /// TextBox3 control.
         /// </summary>
@@ -679,7 +686,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
-        
+
         /// <summary>
         /// TextBox4 control.
         /// </summary>
@@ -688,7 +695,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox4;
-        
+
         /// <summary>
         /// TextBox18 control.
         /// </summary>
@@ -697,7 +704,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox18;
-        
+
         /// <summary>
         /// TextBox19 control.
         /// </summary>
@@ -706,7 +713,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox19;
-        
+
         /// <summary>
         /// TextBox20 control.
         /// </summary>
@@ -715,7 +722,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox20;
-        
+
         /// <summary>
         /// TextBox21 control.
         /// </summary>
@@ -724,7 +731,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox21;
-        
+
         /// <summary>
         /// TextBox51 control.
         /// </summary>
@@ -733,7 +740,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox51;
-        
+
         /// <summary>
         /// TextBox50 control.
         /// </summary>
@@ -742,7 +749,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox50;
-        
+
         /// <summary>
         /// TextBox52 control.
         /// </summary>
@@ -751,7 +758,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox52;
-        
+
         /// <summary>
         /// TextBox53 control.
         /// </summary>
@@ -760,7 +767,7 @@ namespace mid {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox53;
-        
+
         /// <summary>
         /// TextBox54 control.
         /// </summary>
@@ -777,8 +784,8 @@ namespace mid {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        private global::System.Web.UI.WebControls.GridView gridView1;
+        //protected global::System.Web.UI.WebControls.GridView
+    } 
 
-       
-    }
+
 }

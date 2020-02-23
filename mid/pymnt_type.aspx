@@ -2,6 +2,23 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
+    <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="emp_settings.aspx"><i class="fa fa-dashboard"></i>اعدادات الموظفين </a>
+                    <small><small>
+                        <asp:Label ID="Label2" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                   <li><a href="basic_settings2.aspx">الاعدادات</a></li>
+                    <li ><a href="emp_settings.aspx">اعدادات الموظفين</a></li>
+                     <li ><a href="pymnt_type.aspx">طريقة دفع الرواتب</a></li>
+                </ol>
+            </section>
+        </div>
+    </div>
 
     <section class="content-header">
         <div class="panel panel-default col-lg-12">

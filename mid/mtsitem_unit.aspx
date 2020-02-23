@@ -1,8 +1,25 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="mtsitem_unit.aspx.cs" Inherits="mid.mtsitem_unit" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <section class="content-header">
-       
+    <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="basic_info.aspx"><i class="fa fa-dashboard"></i>البيانات الاساسية </a>
+                    <small><small>
+                        <asp:Label ID="Label25" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                    <li><a href="basic_info.aspx">البيانات الاساسية</a></li>
+                    
+                  <li><a href="mtsitem_unit.aspx">الوحدات للأصناف</a></li>
+                </ol>
+            </section>
+        </div>
+    </div>
+
+    <section class="content-header">     
     <div class="panel panel-default col-lg-12">
         <div class="panel-body">
             <h2 class="panel-title" style="font-size: 29px;">الوحدات للأصناف</h2>
@@ -63,11 +80,11 @@
 
                     <asp:GridView ID="GridView1" CssClass="table table-striped" runat="server" Style="direction: ltr; font-size: 14px;" GridLines="None" OnPageIndexChanging="GridView1_PageIndexChanging" BackColor="White">
                         <Columns>
-                            <asp:HyperLinkField ControlStyle-BackColor="red" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="mts_emp_cntract_delete.aspx?no={0}" HeaderText="حذف" NavigateUrl="~/mts_emp_cntract_delete.aspx" Text='<i class="fa fa-trash"></i>' />
+                            <asp:HyperLinkField ControlStyle-BackColor="red" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="mtsitem_unit_dele.aspx?no={0}" HeaderText="حذف" NavigateUrl="~/mts_emp_cntract_delete.aspx" Text='<i class="fa fa-trash"></i>' />
 
                             <asp:HyperLinkField ControlStyle-BackColor="Green" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="update_mts_emp_cntrct.aspx?no={0}" HeaderText="تعديل" NavigateUrl="~/update_mts_emp_cntrct.aspx" Text='<i class="fa fa-edit"></i>' />
 
-                            <asp:HyperLinkField ControlStyle-BackColor="#3c8dbc" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="mts_emp_contrct_show.aspx?no={0}" HeaderText="عرض" NavigateUrl="~/mts_emp_contrct_show.aspx" Text='<i class="fa fa-edit"></i>' />
+                            <asp:HyperLinkField ControlStyle-BackColor="#3c8dbc" ControlStyle-ForeColor="White" ControlStyle-CssClass="p-2" DataNavigateUrlFields="الرقم" DataNavigateUrlFormatString="mtsitem_unit_show.aspx?no={0}" HeaderText="عرض" NavigateUrl="~/mts_emp_contrct_show.aspx" Text='<i class="fa fa-edit"></i>' />
                         </Columns>
                     </asp:GridView>
                 </div>

@@ -21,13 +21,14 @@ namespace mid
                 DropDownList4.DataTextField = "Cmp_Nm";
                 DropDownList4.DataSource = db.MainCmpnam.ToList();
                 DropDownList4.DataBind();
-                TextBox17.Text = DropDownList4.SelectedValue;
+                TextBox28.Text = DropDownList4.SelectedValue;
 
 
-                DropDownList5.DataValueField = "Brn_No";
-                DropDownList5.DataTextField = "Brn_NmAr";
-                DropDownList5.DataSource = db.MainBranch.ToList();
+                DropDownList5.DataValueField = "Actvty_No";
+                DropDownList5.DataTextField = "Name_Arb";
+                DropDownList5.DataSource = db.ActivityTypes.ToList();
                 DropDownList5.DataBind();
+                TextBox17.Text = DropDownList5.SelectedValue;
                 ViewState["id"] = 0;
                 load_tree();
 
@@ -380,16 +381,20 @@ namespace mid
 
         protected void DropDownList4_SelectedIndexChanged(object sender, EventArgs e)
         {
-            TextBox17.Text = DropDownList4.SelectedValue;
+            TextBox28.Text = DropDownList4.SelectedValue;
+           
             int no = int.Parse(DropDownList4.SelectedValue);
-            DropDownList5.DataValueField = "Brn_No";
-            DropDownList5.DataTextField = "Brn_NmAr";
-            DropDownList5.DataSource = db.MainBranch.Where(o => o.Cmp_No == no).ToList();
+            DropDownList5.DataValueField = "Actvty_No";
+            DropDownList5.DataTextField = "Name_Arb";
+            DropDownList5.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
             DropDownList5.DataBind();
 
             load_tree();
         }
-
+        protected void DropDownList5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TextBox17.Text = DropDownList5.SelectedValue;
+        }
         protected void Button1_Click(object sender, EventArgs e)
         {
             if (TreeView1.SelectedValue == "")

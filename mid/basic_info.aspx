@@ -5,14 +5,14 @@
         <div class="col-md-12">
             <section class="content-header">
                 <h1>
-                    <a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>البيانات الاساسية </a>
+                    <a href="basic_info.aspx"><i class="fa fa-dashboard"></i>البيانات الاساسية </a>
                     <small><small>
                         <asp:Label ID="Label1" runat="server" Text=""></asp:Label></small></small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
-                    <li><a href="#">Examples</a></li>
-                    <li class="active">Blank page</li>
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>الرئيسية </a></li>
+                    <li><a href="basic_info.aspx">البيانات الاساسية</a></li>
+
                 </ol>
             </section>
         </div>
@@ -54,7 +54,8 @@
             <div class="info-box">
                 <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
                 <div class="info-box-content">
-                    <span class="info-box-text"><a href="mts_emp_cntrct.aspx"><i class="fa fa-user"></i>البيانات المالية<br />للموظفين</a></span>
+                    <span class="info-box-text"><a href="mts_emp_cntrct.aspx"><i class="fa fa-user"></i>البيانات المالية<br />
+                        للموظفين</a></span>
                     <%--                    <span class="info-box-number">760</span>--%>
                 </div>
                 <!-- /.info-box-content -->
@@ -85,11 +86,13 @@
             </div>
             <!-- /.info-box -->
         </div>
+        
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
                 <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
                 <div class="info-box-content">
-                    <span class="info-box-text"><a href="mts_lc.aspx"><i class="fa fa-user"></i>البيانات الاساسية<br /> للأعتمادات</a></span>
+                    <span class="info-box-text"><a href="mts_lc.aspx"><i class="fa fa-user"></i>البيانات الاساسية<br />
+                        للأعتمادات</a></span>
                     <%--                    <span class="info-box-number">2,000</span>--%>
                 </div>
                 <!-- /.info-box-content -->
@@ -118,19 +121,24 @@
             </div>
             <!-- /.info-box -->
         </div>
-
-         <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
                 <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
                 <div class="info-box-content">
-                    <span class="info-box-text"><a href="mtsitem_mfs.aspx"><i class="fa fa-user"></i>تصنيف مجموعات  <br /> الاصناف </a></span>
+                    <span class="info-box-text"><a href="mtsitem_mfs.aspx"><i class="fa fa-user"></i>تصنيف مجموعات 
+                        <br />
+                        الاصناف </a></span>
                     <%--                    <span class="info-box-number">2,000</span>--%>
                 </div>
                 <!-- /.info-box-content -->
             </div>
             <!-- /.info-box -->
         </div>
-         <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
                 <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
                 <div class="info-box-content">

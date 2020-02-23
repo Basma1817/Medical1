@@ -4,14 +4,14 @@
         <div class="col-md-12">
             <section class="content-header">
                 <h1>
-                    <a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>الاعدادات </a>
+                    <a href="basic_settings2.aspx"><i class="fa fa-dashboard"></i>الاعدادات </a>
                     <small><small>
                         <asp:Label ID="Label1" runat="server" Text=""></asp:Label></small></small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>الرئيسية </a></li>
                     <li><a href="basic_settings2.aspx">الاعدادات</a></li>
-                    <li class="active">Blank page</li>
+                   
                 </ol>
             </section>
         </div>

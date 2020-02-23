@@ -100,5 +100,6 @@ namespace mid
         public Nullable<decimal> Taxv_ExtraTot { get; set; }
         public Nullable<short> Tax_Allow { get; set; }
         public Nullable<long> Tax_Acc { get; set; }
+        public Nullable<long> Brn_NO { get; set; }
     }
 }

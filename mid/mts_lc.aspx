@@ -1,18 +1,38 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="mts_lc.aspx.cs" Inherits="mid.mts_lc" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="basic_info.aspx"><i class="fa fa-dashboard"></i>البيانات الاساسية </a>
+                    <small><small>
+                        <asp:Label ID="Label15" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                    <li><a href="basic_info.aspx">البيانات الاساسية</a></li>
+                     <li><a href="mts_lc.aspx">البيانات الأساسية للإعتمادات</a></li>
+                  
+                </ol>
+            </section>
+        </div>
+    </div>
 
     <section class="content-header">
-        <ol class="breadcrumb">
-            <h1 style="padding-left: 400px;"><small>البيانات الاساسية > البيانات الأساسية للإعتمادات</small></h1>
-        </ol>
+        <div class="panel panel-default col-lg-12">
+        <div class="panel-body">
+            <h2 class="panel-title" style="font-size: 29px;">البيانات الأساسية للإعتمادات</h2>
+        </div>
+    </div>
+
         <div style="margin:0 0 2% 55%">
         <asp:Label ID="Label2" runat="server" Text="اسم الشركة"></asp:Label>
             <asp:DropDownList ID="DropDownList1" runat="server">
                 <asp:ListItem>--اختر--</asp:ListItem>
             </asp:DropDownList>
         </div>
-        <div class="wrapper" id="app" style="float: left; width: 100%; margin-right: 30px;">
+       
             <div style="direction: rtl; padding: 10px 10px 10px 55px">
 
                 <asp:Label ID="Label1" runat="server" Text="الرقم"></asp:Label>

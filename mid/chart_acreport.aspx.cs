@@ -11,6 +11,8 @@ namespace mid
 {
     public partial class chart_acreport : System.Web.UI.Page
     {
+        ICDBTrdAEntities db = new ICDBTrdAEntities();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             var report = new ReportDocument();

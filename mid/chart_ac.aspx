@@ -1,6 +1,24 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="chart_ac.aspx.cs" Inherits="mid.chart_ac" EnableTheming="False" StylesheetTheme="" Theme="" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="basic_info.aspx"><i class="fa fa-dashboard"></i>البيانات الاساسية </a>
+                    <small><small>
+                        <asp:Label ID="Label15" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                    <li><a href="basic_info.aspx">البيانات الاساسية</a></li>
+                     <li><a href="chart_ac.aspx">دليل الحسابات</a></li>
+                  
+                </ol>
+            </section>
+        </div>
+    </div>
+
     <div class="panel panel-default col-lg-12">
         <div class="panel-body">
             <h2 class="panel-title" style="font-size: 29px;">دليل الحسابات</h2>

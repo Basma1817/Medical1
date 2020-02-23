@@ -928,6 +928,7 @@
     <EntitySetMapping Name="InvLodhdr">
       <EntityTypeMapping TypeName="ICDBTrdAModel.InvLodhdr">
         <MappingFragment StoreEntitySet="InvLodhdr">
+          <ScalarProperty Name="Brn_NO" ColumnName="Brn_NO" />
           <ScalarProperty Name="Cmp_No" ColumnName="Cmp_No" />
           <ScalarProperty Name="Actvty_No" ColumnName="Actvty_No" />
           <ScalarProperty Name="StoreID" ColumnName="StoreID" />

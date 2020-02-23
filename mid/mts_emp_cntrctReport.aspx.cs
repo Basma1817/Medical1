@@ -41,7 +41,7 @@ namespace mid
                 }
 
             }
-            if (this.CrystalReportViewer1.LogOnInfo != null)
+                         if (this.CrystalReportViewer1.LogOnInfo != null)
                 {
                     TableLogOnInfos tlInfo = this.CrystalReportViewer1.LogOnInfo;
                     foreach (TableLogOnInfo tbloginfo in tlInfo)

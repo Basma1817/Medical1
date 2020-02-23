@@ -16,12 +16,15 @@ namespace mid
             DropDownList1.DataTextField = "Cmp_Nm";
             DropDownList1.DataSource = db.MainCmpnam.ToList();
             DropDownList1.DataBind();
+            TextBox3.Text = DropDownList1.SelectedValue;
             int no = int.Parse(DropDownList1.SelectedValue);
 
-            DropDownList2.DataTextField = "Name_Arb";
+
             DropDownList2.DataValueField = "Actvty_No";
-            DropDownList2.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+            DropDownList2.DataTextField = "Name_Arb";
+            DropDownList2.DataSource = db.ActivityTypes.ToList();
             DropDownList2.DataBind();
+            TextBox2.Text = DropDownList2.SelectedValue;
             ViewState["id"] = 0;
        
         var query = from p in db.MtsEmpcntrct
@@ -117,11 +120,8 @@ namespace mid
         protected void GridView1_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
         {
 
-
             int index = e.NewSelectedIndex;
             int id = Convert.ToInt16(GridView1.Rows[index].Cells[7].Text);
-
-
             var cn = db.MtsEmpcntrct.Find(id);
             db.MtsEmpcntrct.Remove(cn);
             db.SaveChanges();
@@ -129,17 +129,17 @@ namespace mid
         }
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            TextBox3.Text = DropDownList1.SelectedValue;
             int no = int.Parse(DropDownList1.SelectedValue);
-
-            DropDownList1.DataTextField = "Cmp_Nm";
-            DropDownList1.DataValueField = "Cmp_No";
-            DropDownList1.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
-            DropDownList1.DataBind();
+            DropDownList2.DataValueField = "Actvty_No";
+            DropDownList2.DataTextField = "Name_Arb";
+            DropDownList2.DataSource = db.ActivityTypes.Where(o => o.cmp_no == no).ToList();
+            DropDownList2.DataBind();
         }
 
         protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            TextBox2.Text = DropDownList2.SelectedValue;
         }
 
     }

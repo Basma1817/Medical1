@@ -1,6 +1,25 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="asets_status.aspx.cs" Inherits="mid.asets_status" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="main_settings.aspx"><i class="fa fa-dashboard"></i>اعدادات الاصول </a>
+                    <small><small>
+                        <asp:Label ID="Label2" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                   <li><a href="basic_settings2.aspx">الاعدادات</a></li>
+                    <li ><a href="main_settings.aspx">اعدادات الأصول</a></li>
+                     <li ><a href="asets_status.aspx">حالة الاصول الثابتة</a></li>
+                  
+                </ol>
+            </section>
+        </div>
+    </div>
+
          <section class="content-header">
          <div class="panel panel-default col-lg-12">
          <div class="panel-body">

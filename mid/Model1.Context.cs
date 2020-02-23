@@ -174,8 +174,16 @@ namespace mid
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<InvLoddtl_Get_By_Doc_No_Result>("InvLoddtl_Get_By_Doc_No", doc_NoParameter);
         }
     
-        public virtual ObjectResult<InvLoddtl_Gett_by_Ln_No_Result> InvLoddtl_Gett_by_Ln_No(Nullable<short> doc_Ty, Nullable<long> doc_No, Nullable<short> ln_No)
+        public virtual ObjectResult<InvLoddtl_Gett_by_Ln_No_Result> InvLoddtl_Gett_by_Ln_No(Nullable<short> cmp_No, Nullable<short> actvty_No, Nullable<short> doc_Ty, Nullable<long> doc_No, Nullable<short> ln_No)
         {
+            var cmp_NoParameter = cmp_No.HasValue ?
+                new ObjectParameter("Cmp_No", cmp_No) :
+                new ObjectParameter("Cmp_No", typeof(short));
+    
+            var actvty_NoParameter = actvty_No.HasValue ?
+                new ObjectParameter("Actvty_No", actvty_No) :
+                new ObjectParameter("Actvty_No", typeof(short));
+    
             var doc_TyParameter = doc_Ty.HasValue ?
                 new ObjectParameter("Doc_Ty", doc_Ty) :
                 new ObjectParameter("Doc_Ty", typeof(short));
@@ -188,10 +196,10 @@ namespace mid
                 new ObjectParameter("Ln_No", ln_No) :
                 new ObjectParameter("Ln_No", typeof(short));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<InvLoddtl_Gett_by_Ln_No_Result>("InvLoddtl_Gett_by_Ln_No", doc_TyParameter, doc_NoParameter, ln_NoParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<InvLoddtl_Gett_by_Ln_No_Result>("InvLoddtl_Gett_by_Ln_No", cmp_NoParameter, actvty_NoParameter, doc_TyParameter, doc_NoParameter, ln_NoParameter);
         }
     
-        public virtual int InvLoddtl_Insert_Pur(Nullable<long> doc_No, Nullable<short> cmp_No, Nullable<short> actvty_No, Nullable<short> storeID, Nullable<short> doc_Ty, Nullable<short> ln_No, Nullable<System.DateTime> doc_Dt, string doc_DtAr, Nullable<short> to_Store, Nullable<long> sup_No, Nullable<long> itm_No, Nullable<short> unit_No, Nullable<decimal> qty, Nullable<decimal> itm_Pur, Nullable<decimal> titm_Pur, Nullable<decimal> disc1_Prct, Nullable<decimal> disc2_Prct)
+        public virtual int InvLoddtl_Insert_Pur(Nullable<long> doc_No, Nullable<short> cmp_No, Nullable<short> actvty_No, Nullable<short> storeID, Nullable<short> doc_Ty, Nullable<short> ln_No, Nullable<System.DateTime> doc_Dt, string doc_DtAr, Nullable<short> to_Store, Nullable<long> sup_No, Nullable<long> itm_No, Nullable<short> unit_No, Nullable<short> loc_No, Nullable<decimal> qty, Nullable<decimal> itm_Pur, Nullable<decimal> titm_Pur, string exp_Date, string batch_No, Nullable<decimal> disc1_Prct, Nullable<decimal> disc1_Val, Nullable<decimal> itm_SalSubUnt, Nullable<decimal> fcTitm_Sal, Nullable<decimal> fcItm_Pur, Nullable<decimal> fcTitm_Cost, Nullable<decimal> taxp_Extra, Nullable<decimal> taxv_Extra)
         {
             var doc_NoParameter = doc_No.HasValue ?
                 new ObjectParameter("Doc_No", doc_No) :
@@ -241,6 +249,10 @@ namespace mid
                 new ObjectParameter("Unit_No", unit_No) :
                 new ObjectParameter("Unit_No", typeof(short));
     
+            var loc_NoParameter = loc_No.HasValue ?
+                new ObjectParameter("Loc_No", loc_No) :
+                new ObjectParameter("Loc_No", typeof(short));
+    
             var qtyParameter = qty.HasValue ?
                 new ObjectParameter("Qty", qty) :
                 new ObjectParameter("Qty", typeof(decimal));
@@ -253,15 +265,47 @@ namespace mid
                 new ObjectParameter("Titm_Pur", titm_Pur) :
                 new ObjectParameter("Titm_Pur", typeof(decimal));
     
+            var exp_DateParameter = exp_Date != null ?
+                new ObjectParameter("Exp_Date", exp_Date) :
+                new ObjectParameter("Exp_Date", typeof(string));
+    
+            var batch_NoParameter = batch_No != null ?
+                new ObjectParameter("Batch_No", batch_No) :
+                new ObjectParameter("Batch_No", typeof(string));
+    
             var disc1_PrctParameter = disc1_Prct.HasValue ?
                 new ObjectParameter("Disc1_Prct", disc1_Prct) :
                 new ObjectParameter("Disc1_Prct", typeof(decimal));
     
-            var disc2_PrctParameter = disc2_Prct.HasValue ?
-                new ObjectParameter("Disc2_Prct", disc2_Prct) :
-                new ObjectParameter("Disc2_Prct", typeof(decimal));
+            var disc1_ValParameter = disc1_Val.HasValue ?
+                new ObjectParameter("Disc1_Val", disc1_Val) :
+                new ObjectParameter("Disc1_Val", typeof(decimal));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InvLoddtl_Insert_Pur", doc_NoParameter, cmp_NoParameter, actvty_NoParameter, storeIDParameter, doc_TyParameter, ln_NoParameter, doc_DtParameter, doc_DtArParameter, to_StoreParameter, sup_NoParameter, itm_NoParameter, unit_NoParameter, qtyParameter, itm_PurParameter, titm_PurParameter, disc1_PrctParameter, disc2_PrctParameter);
+            var itm_SalSubUntParameter = itm_SalSubUnt.HasValue ?
+                new ObjectParameter("Itm_SalSubUnt", itm_SalSubUnt) :
+                new ObjectParameter("Itm_SalSubUnt", typeof(decimal));
+    
+            var fcTitm_SalParameter = fcTitm_Sal.HasValue ?
+                new ObjectParameter("FcTitm_Sal", fcTitm_Sal) :
+                new ObjectParameter("FcTitm_Sal", typeof(decimal));
+    
+            var fcItm_PurParameter = fcItm_Pur.HasValue ?
+                new ObjectParameter("FcItm_Pur", fcItm_Pur) :
+                new ObjectParameter("FcItm_Pur", typeof(decimal));
+    
+            var fcTitm_CostParameter = fcTitm_Cost.HasValue ?
+                new ObjectParameter("FcTitm_Cost", fcTitm_Cost) :
+                new ObjectParameter("FcTitm_Cost", typeof(decimal));
+    
+            var taxp_ExtraParameter = taxp_Extra.HasValue ?
+                new ObjectParameter("Taxp_Extra", taxp_Extra) :
+                new ObjectParameter("Taxp_Extra", typeof(decimal));
+    
+            var taxv_ExtraParameter = taxv_Extra.HasValue ?
+                new ObjectParameter("Taxv_Extra", taxv_Extra) :
+                new ObjectParameter("Taxv_Extra", typeof(decimal));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InvLoddtl_Insert_Pur", doc_NoParameter, cmp_NoParameter, actvty_NoParameter, storeIDParameter, doc_TyParameter, ln_NoParameter, doc_DtParameter, doc_DtArParameter, to_StoreParameter, sup_NoParameter, itm_NoParameter, unit_NoParameter, loc_NoParameter, qtyParameter, itm_PurParameter, titm_PurParameter, exp_DateParameter, batch_NoParameter, disc1_PrctParameter, disc1_ValParameter, itm_SalSubUntParameter, fcTitm_SalParameter, fcItm_PurParameter, fcTitm_CostParameter, taxp_ExtraParameter, taxv_ExtraParameter);
         }
     
         public virtual ObjectResult<Nullable<int>> InvLoddtl_Max_New_Ln_No(Nullable<short> doc_Ty, Nullable<long> doc_No)
@@ -277,11 +321,23 @@ namespace mid
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("InvLoddtl_Max_New_Ln_No", doc_TyParameter, doc_NoParameter);
         }
     
-        public virtual int InvLoddtl_Update_Pur(Nullable<long> doc_No, Nullable<short> doc_Ty, Nullable<short> ln_No, Nullable<long> itm_No, Nullable<short> unit_No, Nullable<decimal> qty, Nullable<decimal> itm_Pur, Nullable<decimal> titm_Pur, Nullable<decimal> disc1_Prct, Nullable<decimal> disc2_Prct)
+        public virtual int InvLoddtl_Update_Pur(Nullable<long> doc_No, Nullable<short> cmp_No, Nullable<short> actvty_No, Nullable<short> storeID, Nullable<short> doc_Ty, Nullable<short> ln_No, Nullable<System.DateTime> doc_Dt, string doc_DtAr, Nullable<short> to_Store, Nullable<long> sup_No, Nullable<long> itm_No, Nullable<short> unit_No, Nullable<short> loc_No, Nullable<decimal> qty, Nullable<decimal> itm_Pur, Nullable<decimal> titm_Pur, string exp_Date, string batch_No, Nullable<decimal> disc1_Prct, Nullable<decimal> disc1_Val, Nullable<decimal> itm_SalSubUnt, Nullable<decimal> fcTitm_Sal, Nullable<decimal> fcItm_Pur, Nullable<decimal> fcTitm_Cost, Nullable<decimal> taxp_Extra, Nullable<decimal> taxv_Extra)
         {
             var doc_NoParameter = doc_No.HasValue ?
                 new ObjectParameter("Doc_No", doc_No) :
                 new ObjectParameter("Doc_No", typeof(long));
+    
+            var cmp_NoParameter = cmp_No.HasValue ?
+                new ObjectParameter("Cmp_No", cmp_No) :
+                new ObjectParameter("Cmp_No", typeof(short));
+    
+            var actvty_NoParameter = actvty_No.HasValue ?
+                new ObjectParameter("Actvty_No", actvty_No) :
+                new ObjectParameter("Actvty_No", typeof(short));
+    
+            var storeIDParameter = storeID.HasValue ?
+                new ObjectParameter("StoreID", storeID) :
+                new ObjectParameter("StoreID", typeof(short));
     
             var doc_TyParameter = doc_Ty.HasValue ?
                 new ObjectParameter("Doc_Ty", doc_Ty) :
@@ -291,6 +347,22 @@ namespace mid
                 new ObjectParameter("Ln_No", ln_No) :
                 new ObjectParameter("Ln_No", typeof(short));
     
+            var doc_DtParameter = doc_Dt.HasValue ?
+                new ObjectParameter("Doc_Dt", doc_Dt) :
+                new ObjectParameter("Doc_Dt", typeof(System.DateTime));
+    
+            var doc_DtArParameter = doc_DtAr != null ?
+                new ObjectParameter("Doc_DtAr", doc_DtAr) :
+                new ObjectParameter("Doc_DtAr", typeof(string));
+    
+            var to_StoreParameter = to_Store.HasValue ?
+                new ObjectParameter("To_Store", to_Store) :
+                new ObjectParameter("To_Store", typeof(short));
+    
+            var sup_NoParameter = sup_No.HasValue ?
+                new ObjectParameter("Sup_No", sup_No) :
+                new ObjectParameter("Sup_No", typeof(long));
+    
             var itm_NoParameter = itm_No.HasValue ?
                 new ObjectParameter("Itm_No", itm_No) :
                 new ObjectParameter("Itm_No", typeof(long));
@@ -298,6 +370,10 @@ namespace mid
             var unit_NoParameter = unit_No.HasValue ?
                 new ObjectParameter("Unit_No", unit_No) :
                 new ObjectParameter("Unit_No", typeof(short));
+    
+            var loc_NoParameter = loc_No.HasValue ?
+                new ObjectParameter("Loc_No", loc_No) :
+                new ObjectParameter("Loc_No", typeof(short));
     
             var qtyParameter = qty.HasValue ?
                 new ObjectParameter("Qty", qty) :
@@ -311,15 +387,47 @@ namespace mid
                 new ObjectParameter("Titm_Pur", titm_Pur) :
                 new ObjectParameter("Titm_Pur", typeof(decimal));
     
+            var exp_DateParameter = exp_Date != null ?
+                new ObjectParameter("Exp_Date", exp_Date) :
+                new ObjectParameter("Exp_Date", typeof(string));
+    
+            var batch_NoParameter = batch_No != null ?
+                new ObjectParameter("Batch_No", batch_No) :
+                new ObjectParameter("Batch_No", typeof(string));
+    
             var disc1_PrctParameter = disc1_Prct.HasValue ?
                 new ObjectParameter("Disc1_Prct", disc1_Prct) :
                 new ObjectParameter("Disc1_Prct", typeof(decimal));
     
-            var disc2_PrctParameter = disc2_Prct.HasValue ?
-                new ObjectParameter("Disc2_Prct", disc2_Prct) :
-                new ObjectParameter("Disc2_Prct", typeof(decimal));
+            var disc1_ValParameter = disc1_Val.HasValue ?
+                new ObjectParameter("Disc1_Val", disc1_Val) :
+                new ObjectParameter("Disc1_Val", typeof(decimal));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InvLoddtl_Update_Pur", doc_NoParameter, doc_TyParameter, ln_NoParameter, itm_NoParameter, unit_NoParameter, qtyParameter, itm_PurParameter, titm_PurParameter, disc1_PrctParameter, disc2_PrctParameter);
+            var itm_SalSubUntParameter = itm_SalSubUnt.HasValue ?
+                new ObjectParameter("Itm_SalSubUnt", itm_SalSubUnt) :
+                new ObjectParameter("Itm_SalSubUnt", typeof(decimal));
+    
+            var fcTitm_SalParameter = fcTitm_Sal.HasValue ?
+                new ObjectParameter("FcTitm_Sal", fcTitm_Sal) :
+                new ObjectParameter("FcTitm_Sal", typeof(decimal));
+    
+            var fcItm_PurParameter = fcItm_Pur.HasValue ?
+                new ObjectParameter("FcItm_Pur", fcItm_Pur) :
+                new ObjectParameter("FcItm_Pur", typeof(decimal));
+    
+            var fcTitm_CostParameter = fcTitm_Cost.HasValue ?
+                new ObjectParameter("FcTitm_Cost", fcTitm_Cost) :
+                new ObjectParameter("FcTitm_Cost", typeof(decimal));
+    
+            var taxp_ExtraParameter = taxp_Extra.HasValue ?
+                new ObjectParameter("Taxp_Extra", taxp_Extra) :
+                new ObjectParameter("Taxp_Extra", typeof(decimal));
+    
+            var taxv_ExtraParameter = taxv_Extra.HasValue ?
+                new ObjectParameter("Taxv_Extra", taxv_Extra) :
+                new ObjectParameter("Taxv_Extra", typeof(decimal));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InvLoddtl_Update_Pur", doc_NoParameter, cmp_NoParameter, actvty_NoParameter, storeIDParameter, doc_TyParameter, ln_NoParameter, doc_DtParameter, doc_DtArParameter, to_StoreParameter, sup_NoParameter, itm_NoParameter, unit_NoParameter, loc_NoParameter, qtyParameter, itm_PurParameter, titm_PurParameter, exp_DateParameter, batch_NoParameter, disc1_PrctParameter, disc1_ValParameter, itm_SalSubUntParameter, fcTitm_SalParameter, fcItm_PurParameter, fcTitm_CostParameter, taxp_ExtraParameter, taxv_ExtraParameter);
         }
     
         public virtual ObjectResult<Nullable<int>> InvLodhdr_Count_ID()

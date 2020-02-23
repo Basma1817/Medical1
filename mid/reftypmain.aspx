@@ -1,7 +1,24 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="reftypmain.aspx.cs" Inherits="mid.reftypmain" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    
+    <div class="row">
+        <div class="col-md-12">
+            <section class="content-header">
+                <h1>
+                    <a href="sale_settings.aspx"><i class="fa fa-dashboard"></i>اعدادات المبيعات </a>
+                    <small><small>
+                        <asp:Label ID="Label3" runat="server" Text=""></asp:Label></small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i>Dashboard </a></li>
+                    <li><a href="basic_settings2.aspx">الاعدادات</a></li>
+                    <li ><a href="sale_settings.aspx">اعدادات المبيعات</a></li>
+                     <li ><a href="reftypmain.aspx">انواع المراجع</a></li>
+                </ol>
+            </section>
+        </div>
+    </div>
+
     <style>
         .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
             font-size: 18px;

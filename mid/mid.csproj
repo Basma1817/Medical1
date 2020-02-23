@@ -239,6 +239,7 @@
     <Content Include="activty_types_delete.aspx" />
     <Content Include="activty_types_show.aspx" />
     <Content Include="AddActivateAcc.aspx" />
+    <Content Include="add_astarea.aspx" />
     <Content Include="admin-lte\css\AdminLTE.css" />
     <Content Include="admin-lte\css\AdminLTE.min.css" />
     <Content Include="admin-lte\css\alt\AdminLTE-bootstrap-social.css" />
@@ -318,6 +319,7 @@
     <Content Include="asets_typeReport.aspx" />
     <Content Include="asets_type_delete.aspx" />
     <Content Include="astareaReport.aspx" />
+    <Content Include="astarea_update.aspx" />
     <Content Include="astbankٌReport.aspx" />
     <Content Include="astcompany_delete.aspx" />
     <Content Include="astcompanyٌReport.aspx" />
@@ -1272,6 +1274,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="mtsitem_unit_dele.aspx" />
     <Content Include="Pur_Invoic.aspx" />
     <Content Include="images\addnew.png" />
     <Content Include="asets_loc.aspx" />
@@ -1306,7 +1309,9 @@
     <Content Include="department.aspx" />
     <Content Include="depstat.aspx" />
     <Content Include="images\edit.png" />
-    <Content Include="Account\Web.config" />
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -2156,6 +2161,8 @@
     <Content Include="plugins\timepicker\bootstrap-timepicker.min.css" />
     <Content Include="plugins\timepicker\bootstrap-timepicker.min.js" />
     <Content Include="purchasingInovice.aspx" />
+    <Content Include="Pur_Invoice_Delete.aspx" />
+    <Content Include="Pur_Invoice_Insert.aspx" />
     <Content Include="pymnt_typeReport.aspx" />
     <Content Include="pymnt_type_delete.aspx" />
     <Content Include="pymnt_type_show.aspx" />
@@ -2463,6 +2470,8 @@
     <Content Include="salesman_delete.aspx" />
     <Content Include="salesman_show.aspx" />
     <Content Include="salesmanٌReport.aspx" />
+    <Content Include="Sales_Delete.aspx" />
+    <Content Include="Sales_Edit.aspx" />
     <Content Include="Sal_Inovic.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -2578,6 +2587,13 @@
     <Content Include="acc_settings.aspx" />
     <Content Include="main_settings.aspx" />
     <Content Include="emp_settings.aspx" />
+    <Content Include="basic_sales.aspx" />
+    <Content Include="basic_purshasing.aspx" />
+    <Content Include="mtsitem_unit_show.aspx" />
+    <Content Include="update_mtsitem_unit.aspx" />
+    <Content Include="receipt_cash.aspx" />
+    <Content Include="basic_bankboxs.aspx" />
+    <Content Include="insert_receipt_cash.aspx" />
     <Content Include="WF_Pur_Invoic.aspx" />
     <Content Include="wp-content\image\01.jpg" />
     <Content Include="wp-content\image\022e9691c5ba65d23cbf27a53f83163e.jpg" />
@@ -5723,6 +5739,13 @@
     <Compile Include="AddActivateAcc.aspx.designer.cs">
       <DependentUpon>AddActivateAcc.aspx</DependentUpon>
     </Compile>
+    <Compile Include="add_astarea.aspx.cs">
+      <DependentUpon>add_astarea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_astarea.aspx.designer.cs">
+      <DependentUpon>add_astarea.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Adj.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -5864,6 +5887,13 @@
     </Compile>
     <Compile Include="astareaReport.aspx.designer.cs">
       <DependentUpon>astareaReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="astarea_update.aspx.cs">
+      <DependentUpon>astarea_update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="astarea_update.aspx.designer.cs">
+      <DependentUpon>astarea_update.aspx</DependentUpon>
     </Compile>
     <Compile Include="astbank.aspx.cs">
       <DependentUpon>astbank.aspx</DependentUpon>
@@ -6813,6 +6843,13 @@
     <Compile Include="MtsFixdAsets.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="mtsitem_unit_dele.aspx.cs">
+      <DependentUpon>mtsitem_unit_dele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mtsitem_unit_dele.aspx.designer.cs">
+      <DependentUpon>mtsitem_unit_dele.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MtsItmcatgry.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -6843,6 +6880,7 @@
     <Compile Include="MtsSuplirOthr.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="My_Vairables.cs" />
     <Compile Include="PaymentCert.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -7398,6 +7436,20 @@
     <Compile Include="purchasingInovice.aspx.designer.cs">
       <DependentUpon>purchasingInovice.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pur_Invoice_Delete.aspx.cs">
+      <DependentUpon>Pur_Invoice_Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pur_Invoice_Delete.aspx.designer.cs">
+      <DependentUpon>Pur_Invoice_Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pur_Invoice_Insert.aspx.cs">
+      <DependentUpon>Pur_Invoice_Insert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pur_Invoice_Insert.aspx.designer.cs">
+      <DependentUpon>Pur_Invoice_Insert.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pymnt_typeRep1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -7563,6 +7615,20 @@
     </Compile>
     <Compile Include="salesmanٌReport.aspx.designer.cs">
       <DependentUpon>salesmanٌReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Delete.aspx.cs">
+      <DependentUpon>Sales_Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sales_Delete.aspx.designer.cs">
+      <DependentUpon>Sales_Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Edit.aspx.cs">
+      <DependentUpon>Sales_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sales_Edit.aspx.designer.cs">
+      <DependentUpon>Sales_Edit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Sal_Inovic.aspx.cs">
       <DependentUpon>Sal_Inovic.aspx</DependentUpon>
@@ -8239,6 +8305,55 @@
     </Compile>
     <Compile Include="emp_settings.aspx.designer.cs">
       <DependentUpon>emp_settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="basic_sales.aspx.cs">
+      <DependentUpon>basic_sales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="basic_sales.aspx.designer.cs">
+      <DependentUpon>basic_sales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="basic_purshasing.aspx.cs">
+      <DependentUpon>basic_purshasing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="basic_purshasing.aspx.designer.cs">
+      <DependentUpon>basic_purshasing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mtsitem_unit_show.aspx.cs">
+      <DependentUpon>mtsitem_unit_show.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mtsitem_unit_show.aspx.designer.cs">
+      <DependentUpon>mtsitem_unit_show.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="update_mtsitem_unit.aspx.cs">
+      <DependentUpon>update_mtsitem_unit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="update_mtsitem_unit.aspx.designer.cs">
+      <DependentUpon>update_mtsitem_unit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="receipt_cash.aspx.cs">
+      <DependentUpon>receipt_cash.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="receipt_cash.aspx.designer.cs">
+      <DependentUpon>receipt_cash.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="basic_bankboxs.aspx.cs">
+      <DependentUpon>basic_bankboxs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="basic_bankboxs.aspx.designer.cs">
+      <DependentUpon>basic_bankboxs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="insert_receipt_cash.aspx.cs">
+      <DependentUpon>insert_receipt_cash.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="insert_receipt_cash.aspx.designer.cs">
+      <DependentUpon>insert_receipt_cash.aspx</DependentUpon>
     </Compile>
     <Compile Include="WF_Pur_Invoic.aspx.cs">
       <DependentUpon>WF_Pur_Invoic.aspx</DependentUpon>

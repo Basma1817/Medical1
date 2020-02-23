@@ -987,6 +987,7 @@
     <Property Name="Taxv_ExtraTot" Type="Decimal" Precision="19" Scale="4" />
     <Property Name="Tax_Allow" Type="Int16" />
     <Property Name="Tax_Acc" Type="Int64" />
+    <Property Name="Brn_NO" Type="Int64" />
   </EntityType>
   <EntityType Name="InvPoDtl">
     <Key>
@@ -3888,6 +3889,8 @@
       <Parameter Name="Doc_No" Mode="In" Type="Int64" />
     </FunctionImport>
     <FunctionImport Name="InvLoddtl_Gett_by_Ln_No" ReturnType="Collection(ICDBTrdAModel.InvLoddtl_Gett_by_Ln_No_Result)">
+      <Parameter Name="Cmp_No" Mode="In" Type="Int16" />
+      <Parameter Name="Actvty_No" Mode="In" Type="Int16" />
       <Parameter Name="Doc_Ty" Mode="In" Type="Int16" />
       <Parameter Name="Doc_No" Mode="In" Type="Int64" />
       <Parameter Name="Ln_No" Mode="In" Type="Int16" />
@@ -3905,11 +3908,20 @@
       <Parameter Name="Sup_No" Mode="In" Type="Int64" />
       <Parameter Name="Itm_No" Mode="In" Type="Int64" />
       <Parameter Name="Unit_No" Mode="In" Type="Int16" />
+      <Parameter Name="Loc_No" Mode="In" Type="Int16" />
       <Parameter Name="Qty" Mode="In" Type="Decimal" />
       <Parameter Name="Itm_Pur" Mode="In" Type="Decimal" />
       <Parameter Name="Titm_Pur" Mode="In" Type="Decimal" />
+      <Parameter Name="Exp_Date" Mode="In" Type="String" />
+      <Parameter Name="Batch_No" Mode="In" Type="String" />
       <Parameter Name="Disc1_Prct" Mode="In" Type="Decimal" />
-      <Parameter Name="Disc2_Prct" Mode="In" Type="Decimal" />
+      <Parameter Name="Disc1_Val" Mode="In" Type="Decimal" />
+      <Parameter Name="Itm_SalSubUnt" Mode="In" Type="Decimal" />
+      <Parameter Name="FcTitm_Sal" Mode="In" Type="Decimal" />
+      <Parameter Name="FcItm_Pur" Mode="In" Type="Decimal" />
+      <Parameter Name="FcTitm_Cost" Mode="In" Type="Decimal" />
+      <Parameter Name="Taxp_Extra" Mode="In" Type="Decimal" />
+      <Parameter Name="Taxv_Extra" Mode="In" Type="Decimal" />
     </FunctionImport>
     <FunctionImport Name="InvLoddtl_Max_New_Ln_No" ReturnType="Collection(Int32)">
       <Parameter Name="Doc_Ty" Mode="In" Type="Int16" />
@@ -3917,15 +3929,31 @@
     </FunctionImport>
     <FunctionImport Name="InvLoddtl_Update_Pur">
       <Parameter Name="Doc_No" Mode="In" Type="Int64" />
+      <Parameter Name="Cmp_No" Mode="In" Type="Int16" />
+      <Parameter Name="Actvty_No" Mode="In" Type="Int16" />
+      <Parameter Name="StoreID" Mode="In" Type="Int16" />
       <Parameter Name="Doc_Ty" Mode="In" Type="Int16" />
       <Parameter Name="Ln_No" Mode="In" Type="Int16" />
+      <Parameter Name="Doc_Dt" Mode="In" Type="DateTime" />
+      <Parameter Name="Doc_DtAr" Mode="In" Type="String" />
+      <Parameter Name="To_Store" Mode="In" Type="Int16" />
+      <Parameter Name="Sup_No" Mode="In" Type="Int64" />
       <Parameter Name="Itm_No" Mode="In" Type="Int64" />
       <Parameter Name="Unit_No" Mode="In" Type="Int16" />
+      <Parameter Name="Loc_No" Mode="In" Type="Int16" />
       <Parameter Name="Qty" Mode="In" Type="Decimal" />
       <Parameter Name="Itm_Pur" Mode="In" Type="Decimal" />
       <Parameter Name="Titm_Pur" Mode="In" Type="Decimal" />
+      <Parameter Name="Exp_Date" Mode="In" Type="String" />
+      <Parameter Name="Batch_No" Mode="In" Type="String" />
       <Parameter Name="Disc1_Prct" Mode="In" Type="Decimal" />
-      <Parameter Name="Disc2_Prct" Mode="In" Type="Decimal" />
+      <Parameter Name="Disc1_Val" Mode="In" Type="Decimal" />
+      <Parameter Name="Itm_SalSubUnt" Mode="In" Type="Decimal" />
+      <Parameter Name="FcTitm_Sal" Mode="In" Type="Decimal" />
+      <Parameter Name="FcItm_Pur" Mode="In" Type="Decimal" />
+      <Parameter Name="FcTitm_Cost" Mode="In" Type="Decimal" />
+      <Parameter Name="Taxp_Extra" Mode="In" Type="Decimal" />
+      <Parameter Name="Taxv_Extra" Mode="In" Type="Decimal" />
     </FunctionImport>
     <FunctionImport Name="InvLodhdr_Count_ID" ReturnType="Collection(Int32)" />
     <FunctionImport Name="InvLodhdr_Insert">
